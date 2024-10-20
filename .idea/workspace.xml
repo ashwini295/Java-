@@ -4,7 +4,51 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="586ad5a8-517e-48bf-a743-437f241b599f" name="Changes" comment="commiting 1st code" />
+    <list default="true" id="586ad5a8-517e-48bf-a743-437f241b599f" name="Changes" comment="commiting 1st code">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Octex_08102024/Lab003.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Octex_15102024_Ternary/Lab060.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Octex_15102024_Ternary/Lab061.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Octex_15102024_Ternary/Lab062.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Octex_15102024_increment_Decrement/Lab063.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Octex_15102024_increment_Decrement/Lab064.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Octex_15102024_increment_Decrement/Lab065.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Octex_15102024_increment_Decrement/Lab066.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Octex_15102024_increment_Decrement/Lab067.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Octex_15102024_increment_Decrement/Lab068.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Octex_15102024_increment_Decrement/Lab069.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Octex_15102024_increment_Decrement/Lab070.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Octex_16102024/Lab063.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Octex_16102024/Lab064_argument_console.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Octex_16102024/Lab065_Scanner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Octex_17102024_IfCondition/Lab066_if.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Octex_17102024_IfCondition/Lab067_if_else.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Octex_17102024_IfCondition/Lab068.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Octex_17102024_IfCondition/Lab069.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Octex_17102024_IfCondition/Lab070.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Octex_17102024_IfCondition/Lab071_odd_even.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Octex_17102024_IfCondition/Lab072_if_elseif_else.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Octex_17102024_IfCondition/Lab073_hacker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Octex_18102024_Switch/Lab075_without_break.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Octex_18102024_Switch/Lab076.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Octex_18102024_Switch/Lab077.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Octex_18102024_Switch/Lab078.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Octex_18102024_Switch/Lab080.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Octex_18102024_Switch/Lab081.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Octex_18102024_Switch/Lb074_switch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task15102024/Task15102024.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task15102024/Task15102024ID.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task15102024/Task15102024max.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task15102024/Task151022D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task16102024/Task161020241.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task16102024/Task161020242.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task17102024/Task17102024_Gradecal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task17102024/Task17102024_Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task18102024/Task18102024_Month.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task18102024/Task18102024_convertor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task18102024/Task18102024cal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,13 +57,32 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ashwini295&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ashwini295/Java-&quot;,
+    &quot;accountId&quot;: &quot;50602265-7216-466e-af3a-fad7a758e7ce&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -31,23 +94,69 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Fresh Lab064.executor": "Run",
     "Application.Lab001.executor": "Run",
     "Application.Lab002.executor": "Run",
+    "Application.Lab060.executor": "Run",
+    "Application.Lab061.executor": "Run",
+    "Application.Lab062.executor": "Run",
+    "Application.Lab063.executor": "Run",
+    "Application.Lab064.executor": "Run",
+    "Application.Lab065_Scanner.executor": "Run",
+    "Application.Lab066.executor": "Run",
+    "Application.Lab066_if.executor": "Run",
+    "Application.Lab067.executor": "Run",
+    "Application.Lab067_if_else.executor": "Run",
+    "Application.Lab068.executor": "Debug",
+    "Application.Lab069.executor": "Debug",
+    "Application.Lab070.executor": "Run",
+    "Application.Lab071_odd_even.executor": "Debug",
+    "Application.Lab072_if_elseif_else.executor": "Run",
+    "Application.Lab076.executor": "Run",
+    "Application.Lab078.executor": "Run",
+    "Application.Lab080.executor": "Run",
+    "Application.Lab081.executor": "Run",
+    "Application.Lb074_switch.executor": "Run",
+    "Application.Task15102024.executor": "Run",
+    "Application.Task15102024ID.executor": "Run",
+    "Application.Task15102024max.executor": "Run",
+    "Application.Task151022D.executor": "Run",
+    "Application.Task16102024.Task161020242.executor": "Run",
+    "Application.Task161020241.executor": "Run",
+    "Application.Task17102024_Gradecal.executor": "Run",
+    "Application.Task17102024_Triangle.executor": "Run",
+    "Application.Task18102024_Month.executor": "Run",
+    "Application.Task18102024cal.executor": "Run",
     "Application.Task2.executor": "Run",
     "Application.Task3.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "C:/Users/HP/IdeaProjects/ATB9xJavaPrograms/src/Main.java"
+  },
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory",
+      "module"
+    ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Task3">
-    <configuration name="Lab001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Octex_02102014.Lab001" />
+  <component name="RunManager" selected="Application.Task18102024_Month">
+    <configuration name="Fresh Lab064" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Octex_16102024.Lab064_argument_console" />
+      <module name="ATB9xJavaPrograms" />
+      <option name="PROGRAM_PARAMETERS" value="80 4 12" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lab078" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Octex_18102024_Switch.Lab078" />
       <module name="ATB9xJavaPrograms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Octex_02102014.*" />
+          <option name="PATTERN" value="Octex_18102024_Switch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -55,12 +164,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lab002" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Octex_03102014.Lab002" />
+    <configuration name="Lab080" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Octex_18102024_Switch.Lab080" />
       <module name="ATB9xJavaPrograms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Octex_03102014.*" />
+          <option name="PATTERN" value="Octex_18102024_Switch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,12 +177,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Octex_03102014.Task2" />
+    <configuration name="Lab081" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Octex_18102024_Switch.Lab081" />
       <module name="ATB9xJavaPrograms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Octex_03102014.*" />
+          <option name="PATTERN" value="Octex_18102024_Switch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +190,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Octex_03102014.Task3" />
+    <configuration name="Task18102024_Month" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task18102024.Task18102024_Month" />
       <module name="ATB9xJavaPrograms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Octex_03102014.*" />
+          <option name="PATTERN" value="Task18102024.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +203,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task18102024cal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task18102024.Task18102024cal" />
+      <module name="ATB9xJavaPrograms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Task18102024.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Fresh Lab064" />
+      <item itemvalue="Application.Lab078" />
+      <item itemvalue="Application.Lab080" />
+      <item itemvalue="Application.Lab081" />
+      <item itemvalue="Application.Task18102024_Month" />
+      <item itemvalue="Application.Task18102024cal" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Task3" />
-        <item itemvalue="Application.Task2" />
-        <item itemvalue="Application.Lab002" />
-        <item itemvalue="Application.Lab001" />
+        <item itemvalue="Application.Task18102024_Month" />
+        <item itemvalue="Application.Task18102024cal" />
+        <item itemvalue="Application.Lab081" />
+        <item itemvalue="Application.Lab080" />
+        <item itemvalue="Application.Lab078" />
       </list>
     </recent_temporary>
   </component>
@@ -136,11 +267,53 @@
       <option name="project" value="LOCAL" />
       <updated>1728227588208</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="commiting 1st code">
+      <option name="closed" value="true" />
+      <created>1728227893732</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1728227893732</updated>
+    </task>
+    <task id="LOCAL-00005" summary="commiting 1st code">
+      <option name="closed" value="true" />
+      <created>1728228164819</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1728228164819</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commiting 1st code" />
     <option name="LAST_COMMIT_MESSAGE" value="commiting 1st code" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Octex_17102024_IfCondition/Lab068.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Octex_17102024_IfCondition/Lab069.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Octex_17102024_IfCondition/Lab069.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ATB9xJavaPrograms$Lab063.ic" NAME="Lab063 Coverage Results" MODIFIED="1729415934201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>Octex_16102024.*</FILTER>
+    </SUITE>
   </component>
 </project>
