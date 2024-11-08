@@ -4,37 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="586ad5a8-517e-48bf-a743-437f241b599f" name="Changes" comment="commiting 20th oct code">
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Octex_21102024_For_Loop/Lab085.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Octex_21102024_For_Loop/Lab086.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Octex_21102024_For_Loop/Lab087.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Octex_21102024_For_Loop/Lab088.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Octex_21102024_For_Loop/Lab089.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Octex_21102024_For_Loop/Lab090.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Octex_21102024_For_Loop/Lab091.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Octex_21102024_For_Loop/Lab092.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Octex_21102024_For_Loop/Lab093.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Octex_21102024_For_Loop/Lab094.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Octex_21102024_For_Loop/Lab095.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Octex_21102024_For_Loop/Lab096.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Octex_21102024_For_Loop/Lab097.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Octex_21102024_For_Loop/Lab098.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Octex_21102024_For_Loop/Lab099.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Octex_21102024_For_Loop/Lab100.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Octex_21102024_For_Loop/Lab101.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Octex_21102024_For_Loop/Lab84.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Octex_22102024_While_Loop/Lab102.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Octex_22102024_While_Loop/Lab103.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Octex_22102024_While_Loop/Lab104.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Octex_22102024_While_Loop/Lab105.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Octex_22102024_While_Loop/Lab106.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Octex_22102024_While_Loop/Lab107.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Octex_22102024_While_Loop/Lab108.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Octex_22102024_While_Loop/Lab109_Do_While.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Octex_22102024_While_Loop/Lab110.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="586ad5a8-517e-48bf-a743-437f241b599f" name="Changes" comment="commiting 30th oct code" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,7 +43,9 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2mw3BwG639fkul4G6b2nTnnElsN" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -124,6 +96,25 @@
     "Application.Lab108.executor": "Run",
     "Application.Lab109_Do_While.executor": "Run",
     "Application.Lab110.executor": "Run",
+    "Application.Lab111.executor": "Run",
+    "Application.Lab112.executor": "Run",
+    "Application.Lab114.executor": "Run",
+    "Application.Lab119.executor": "Run",
+    "Application.Lab121.executor": "Run",
+    "Application.Lab122_String_equalspart_2.executor": "Run",
+    "Application.Lab123.executor": "Run",
+    "Application.Lab124_String_Builder_vs_String_Buffer.executor": "Run",
+    "Application.Lab125_Array.executor": "Run",
+    "Application.Lab126_Arrayp2.executor": "Run",
+    "Application.Lab128_Iterate.executor": "Run",
+    "Application.Lab129Max_Min_value_Array.executor": "Run",
+    "Application.Lab129_eassy_way.executor": "Run",
+    "Application.Lab130_Array_User_input.executor": "Run",
+    "Application.Lab130_Empty_Array.executor": "Run",
+    "Application.Lab131.executor": "Run",
+    "Application.Lab132_For_Each_Loop.executor": "Run",
+    "Application.Lab135_Arrays_2D_Iterate.executor": "Run",
+    "Application.Lab137.executor": "Run",
     "Application.Lb074_switch.executor": "Run",
     "Application.Run th Lab107.executor": "Run",
     "Application.Task15102024.executor": "Run",
@@ -138,6 +129,7 @@
     "Application.Task18102024cal.executor": "Run",
     "Application.Task2.executor": "Run",
     "Application.Task3.executor": "Run",
+    "Application.functions.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
@@ -152,7 +144,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Lab110">
+  <component name="RunManager" selected="Application.Lab137">
     <configuration name="Fresh Lab064" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Octex_16102024.Lab064_argument_console" />
       <module name="ATB9xJavaPrograms" />
@@ -161,12 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lab104" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Octex_22102024_While_Loop.Lab104" />
+    <configuration name="Lab130_Array_User_input" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Octex_29102024_Arrays.Lab130_Array_User_input" />
       <module name="ATB9xJavaPrograms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Octex_22102024_While_Loop.*" />
+          <option name="PATTERN" value="Octex_29102024_Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,12 +166,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lab108" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Octex_22102024_While_Loop.Lab108" />
+    <configuration name="Lab131_Array_Exception" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Octex_30102024_Arrays.Lab131_Array_Exception" />
       <module name="ATB9xJavaPrograms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Octex_22102024_While_Loop.*" />
+          <option name="PATTERN" value="Octex_30102024_Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -187,12 +179,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lab109_Do_While" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Octex_22102024_While_Loop.Lab109_Do_While" />
+    <configuration name="Lab132_For_Each_Loop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Octex_30102024_Arrays.Lab132_For_Each_Loop" />
       <module name="ATB9xJavaPrograms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Octex_22102024_While_Loop.*" />
+          <option name="PATTERN" value="Octex_30102024_Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -200,12 +192,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lab110" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Octex_22102024_While_Loop.Lab110" />
+    <configuration name="Lab135_Arrays_2D_Iterate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Octex_30102024_Arrays.Lab135_Arrays_2D_Iterate" />
       <module name="ATB9xJavaPrograms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Octex_22102024_While_Loop.*" />
+          <option name="PATTERN" value="Octex_30102024_Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -213,13 +205,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Run th Lab107" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Octex_22102024_While_Loop.Lab107" />
+    <configuration name="Lab137" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Octex_30102024_Arrays.Lab137" />
       <module name="ATB9xJavaPrograms" />
-      <option name="PROGRAM_PARAMETERS" value="10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Octex_22102024_While_Loop.*" />
+          <option name="PATTERN" value="Octex_30102024_Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -229,19 +220,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Fresh Lab064" />
-      <item itemvalue="Application.Lab109_Do_While" />
-      <item itemvalue="Application.Lab110" />
-      <item itemvalue="Application.Lab108" />
-      <item itemvalue="Application.Lab104" />
-      <item itemvalue="Application.Run th Lab107" />
+      <item itemvalue="Application.Lab130_Array_User_input" />
+      <item itemvalue="Application.Lab131_Array_Exception" />
+      <item itemvalue="Application.Lab132_For_Each_Loop" />
+      <item itemvalue="Application.Lab135_Arrays_2D_Iterate" />
+      <item itemvalue="Application.Lab137" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Lab110" />
-        <item itemvalue="Application.Lab109_Do_While" />
-        <item itemvalue="Application.Lab108" />
-        <item itemvalue="Application.Run th Lab107" />
-        <item itemvalue="Application.Lab104" />
+        <item itemvalue="Application.Lab137" />
+        <item itemvalue="Application.Lab135_Arrays_2D_Iterate" />
+        <item itemvalue="Application.Lab132_For_Each_Loop" />
+        <item itemvalue="Application.Lab131_Array_Exception" />
+        <item itemvalue="Application.Lab130_Array_User_input" />
       </list>
     </recent_temporary>
   </component>
@@ -318,13 +309,47 @@
       <option name="project" value="LOCAL" />
       <updated>1729433275323</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="commiting 22th oct code">
+      <option name="closed" value="true" />
+      <created>1730891460136</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1730891460136</updated>
+    </task>
+    <task id="LOCAL-00010" summary="commiting 22th oct code">
+      <option name="closed" value="true" />
+      <created>1730891492027</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1730891492027</updated>
+    </task>
+    <task id="LOCAL-00011" summary="commiting 30th oct code">
+      <option name="closed" value="true" />
+      <created>1731071818298</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1731071818298</updated>
+    </task>
+    <task id="LOCAL-00012" summary="commiting 30th oct code">
+      <option name="closed" value="true" />
+      <created>1731071829133</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1731071829133</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commiting 1st code" />
     <MESSAGE value="commiting 20th oct code" />
-    <option name="LAST_COMMIT_MESSAGE" value="commiting 20th oct code" />
+    <MESSAGE value="commiting 22th oct code" />
+    <MESSAGE value="commiting 30th oct code" />
+    <option name="LAST_COMMIT_MESSAGE" value="commiting 30th oct code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
