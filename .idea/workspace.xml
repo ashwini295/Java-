@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="586ad5a8-517e-48bf-a743-437f241b599f" name="Changes" comment="commiting 30th oct code">
-      <change afterPath="$PROJECT_DIR$/src/Novex_05112024_Oops/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Novex_05112024_Oops/Lab139_oops_object_class.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Novex_05112024_Oops/Lab140_Cat_obj_with_Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Novex_05112024_Oops/StudentsATB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Novex_06112024_Oops_Constructor/Lab142_Constructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Novex_06112024_Oops_Constructor/Lab143_Constructor_p2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Novex_06112024_Oops_Constructor/Lab144_default_constructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Novex_06112024_Oops_Constructor/Lab145_Contructor_Overloading.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Novex_06112024_Oops_Constructor/car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="586ad5a8-517e-48bf-a743-437f241b599f" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -132,8 +121,18 @@
     "Application.Lab143_Constructor_p2.executor": "Run",
     "Application.Lab144_default_constructor.executor": "Run",
     "Application.Lab145_Contructor_Overloading.executor": "Run",
+    "Application.Lab145_Single_Inheritance.executor": "Run",
+    "Application.Lab147_Mulilevel.executor": "Run",
+    "Application.Lab148_Hiearchical.executor": "Run",
+    "Application.Lab_149.executor": "Run",
+    "Application.Lab_150.executor": "Run",
+    "Application.Lab_151.executor": "Run",
+    "Application.Lab_153.executor": "Run",
+    "Application.Lab_Lab152.executor": "Run",
     "Application.Lb074_switch.executor": "Run",
+    "Application.Python.executor": "Run",
     "Application.Run th Lab107.executor": "Run",
+    "Application.Runner.executor": "Run",
     "Application.Task15102024.executor": "Run",
     "Application.Task15102024ID.executor": "Run",
     "Application.Task15102024max.executor": "Run",
@@ -161,7 +160,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Lab145_Contructor_Overloading">
+  <component name="RunManager" selected="Application.Lab_153">
     <configuration name="Fresh Lab064" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Octex_16102024.Lab064_argument_console" />
       <module name="ATB9xJavaPrograms" />
@@ -170,12 +169,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lab140_Cat_obj_with_Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Novex_05112024_Oops.Lab140_Cat_obj_with_Runner" />
+    <configuration name="Lab_150" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Novex_05112024_Oops.Novex_08112024_Oop_Polymorphism.Lab_150" />
       <module name="ATB9xJavaPrograms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Novex_05112024_Oops.*" />
+          <option name="PATTERN" value="Novex_05112024_Oops.Novex_08112024_Oop_Polymorphism.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,12 +182,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lab142_Constructor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Novex_06112024_Oops_Constructor.Lab142_Constructor" />
+    <configuration name="Lab_151" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Novex_05112024_Oops.Novex_08112024_Oop_Polymorphism.Lab_151" />
       <module name="ATB9xJavaPrograms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Novex_06112024_Oops_Constructor.*" />
+          <option name="PATTERN" value="Novex_05112024_Oops.Novex_08112024_Oop_Polymorphism.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -196,12 +195,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lab143_Constructor_p2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Novex_06112024_Oops_Constructor.Lab143_Constructor_p2" />
+    <configuration name="Lab_153" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Novex_05112024_Oops.Novex_08112024_Oop_Encapsulation.Lab_153" />
       <module name="ATB9xJavaPrograms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Novex_06112024_Oops_Constructor.*" />
+          <option name="PATTERN" value="Novex_05112024_Oops.Novex_08112024_Oop_Encapsulation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -209,12 +208,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lab144_default_constructor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Novex_06112024_Oops_Constructor.Lab144_default_constructor" />
+    <configuration name="Lab_Lab152" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Novex_05112024_Oops.Novex_08112024_Oop_Encapsulation.Lab_Lab152" />
       <module name="ATB9xJavaPrograms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Novex_06112024_Oops_Constructor.*" />
+          <option name="PATTERN" value="Novex_05112024_Oops.Novex_08112024_Oop_Encapsulation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -222,34 +221,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lab145_Contructor_Overloading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Novex_06112024_Oops_Constructor.Lab145_Contructor_Overloading" />
-      <module name="ATB9xJavaPrograms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Novex_06112024_Oops_Constructor.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="[Local] Novex_05112024_Oops.Novex_08112024_Oop_Encapsulation.Lab_Lab152::main" type="aws.lambda" factoryName="Local" temporary="true" nameIsGenerated="true">
+      <option name="credentialProviderId" />
+      <option name="regionId" value="us-east-1" />
+      <option name="debugHost" value="localhost" />
+      <option name="architecture" />
+      <option name="environmentVariables">
+        <map />
+      </option>
+      <option name="handler" value="Novex_05112024_Oops.Novex_08112024_Oop_Encapsulation.Lab_Lab152::main" />
+      <option name="image" value="false" />
+      <option name="logicalFunctionName" />
+      <option name="memorySize" value="128" />
+      <option name="pathMappings">
+        <list />
+      </option>
+      <option name="platform" />
+      <option name="runtime" />
+      <option name="templateFile" />
+      <option name="timeout" value="300" />
+      <option name="useTemplate" value="false" />
+      <option name="input" />
+      <option name="inputIsFile" value="false" />
+      <sam>
+        <option name="additionalBuildArgs" />
+        <option name="additionalLocalArgs" />
+        <option name="buildInContainer" value="false" />
+        <option name="dockerNetwork" />
+        <option name="skipImagePull" value="false" />
+      </sam>
+      <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Application.Fresh Lab064" />
-      <item itemvalue="Application.Lab140_Cat_obj_with_Runner" />
-      <item itemvalue="Application.Lab142_Constructor" />
-      <item itemvalue="Application.Lab143_Constructor_p2" />
-      <item itemvalue="Application.Lab144_default_constructor" />
-      <item itemvalue="Application.Lab145_Contructor_Overloading" />
+      <item itemvalue="Application.Lab_150" />
+      <item itemvalue="Application.Lab_151" />
+      <item itemvalue="Application.Lab_153" />
+      <item itemvalue="Application.Lab_Lab152" />
+      <item itemvalue="AWS Lambda.[Local] Novex_05112024_Oops.Novex_08112024_Oop_Encapsulation.Lab_Lab152::main" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Lab145_Contructor_Overloading" />
-        <item itemvalue="Application.Lab144_default_constructor" />
-        <item itemvalue="Application.Lab143_Constructor_p2" />
-        <item itemvalue="Application.Lab142_Constructor" />
-        <item itemvalue="Application.Lab140_Cat_obj_with_Runner" />
+        <item itemvalue="Application.Lab_153" />
+        <item itemvalue="Application.Lab_Lab152" />
+        <item itemvalue="AWS Lambda.[Local] Novex_05112024_Oops.Novex_08112024_Oop_Encapsulation.Lab_Lab152::main" />
+        <item itemvalue="Application.Lab_151" />
+        <item itemvalue="Application.Lab_150" />
       </list>
     </recent_temporary>
   </component>
@@ -358,15 +375,76 @@
       <option name="project" value="LOCAL" />
       <updated>1731071829133</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <option name="closed" value="true" />
+      <created>1731156019446</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1731156019446</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <option name="closed" value="true" />
+      <created>1731245173440</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1731245173440</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <option name="closed" value="true" />
+      <created>1731245224647</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1731245224647</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <option name="closed" value="true" />
+      <created>1731245251207</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1731245251207</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <option name="closed" value="true" />
+      <created>1731245268826</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1731245268826</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <option name="closed" value="true" />
+      <created>1731245410929</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1731245410929</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commiting 1st code" />
     <MESSAGE value="commiting 20th oct code" />
     <MESSAGE value="commiting 22th oct code" />
     <MESSAGE value="commiting 30th oct code" />
-    <option name="LAST_COMMIT_MESSAGE" value="commiting 30th oct code" />
+    <MESSAGE value="commiting 6th nov code" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

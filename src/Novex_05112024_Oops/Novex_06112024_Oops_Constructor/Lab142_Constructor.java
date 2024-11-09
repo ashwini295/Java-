@@ -1,4 +1,4 @@
-package Novex_06112024_Oops_Constructor;
+package Novex_05112024_Oops.Novex_06112024_Oops_Constructor;
 
 public class Lab142_Constructor
 {
