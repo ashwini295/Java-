@@ -5,13 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="586ad5a8-517e-48bf-a743-437f241b599f" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
-      <change afterPath="$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_11112024_Oops_Access_Modifiers/Criminal/Thief.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_11112024_Oops_Access_Modifiers/Lab_154.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_11112024_Oops_Access_Modifiers/Police/JrCop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_11112024_Oops_Access_Modifiers/Police/cop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_11112024_Oops_Access_Modifiers/Real_Example/Base.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_11112024_Oops_Access_Modifiers/Real_Example/Testcase1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_11112024_Oops_Access_Modifiers/Real_Example/Testcase2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_11112024_Oops_Super_Keyword_Abstraction/Lab_155_Super.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_11112024_Oops_Super_Keyword_Abstraction/Lab_156_innerclasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_11112024_Oops_Super_Keyword_Abstraction/Lab_157_Abtraction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_11112024_Oops_Super_Keyword_Abstraction/Lab_158_Abstract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_11112024_Oops_Super_Keyword_Abstraction/Lab_159.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_11112024_Oops_Super_Keyword_Abstraction/Lab_160_Interface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_11112024_Oops_Super_Keyword_Abstraction/Lab_161_Interface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_11112024_Oops_Super_Keyword_Abstraction/Lab_162_interface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_11112024_Oops_Super_Keyword_Abstraction/Tesala.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,119 +61,126 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Fresh Lab064.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab001.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab002.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab060.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab061.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab062.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab063.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab064.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab065_Scanner.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab066.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab066_if.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab067.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab067_if_else.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab068.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Lab069.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Lab070.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab071_odd_even.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Lab072_if_elseif_else.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab076.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab078.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab080.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab081.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab085.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Lab086.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab087.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab088.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab089.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab090.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab092.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab094.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab095.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab096.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab097.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab098.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab099.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab100.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Lab101.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Lab102.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab103.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab104.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab106.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab108.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab109_Do_While.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab110.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab111.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab112.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab114.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab119.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab121.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab122_String_equalspart_2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab123.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab124_String_Builder_vs_String_Buffer.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab125_Array.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab126_Arrayp2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab128_Iterate.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab129Max_Min_value_Array.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab129_eassy_way.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab130_Array_User_input.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab130_Empty_Array.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab131.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab132_For_Each_Loop.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab135_Arrays_2D_Iterate.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab137.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab139_oops_object_class.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab140_Cat_obj_with_Runner.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab142_Constructor.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab143_Constructor_p2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab144_default_constructor.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab145_Contructor_Overloading.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab145_Single_Inheritance.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab147_Mulilevel.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab148_Hiearchical.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab_149.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab_150.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab_151.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab_153.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab_154.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lab_Lab152.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lb074_switch.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Python.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Run th Lab107.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Runner.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Task15102024.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Task15102024ID.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Task15102024max.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Task151022D.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Task16102024.Task161020242.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Task161020241.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Task17102024_Gradecal.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Task17102024_Triangle.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Task18102024_Month.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Task18102024cal.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Task2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Task3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Thief.executor&quot;: &quot;Run&quot;,
-    &quot;Application.functions.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/HP/IdeaProjects/ATB9xJavaPrograms/src/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Fresh Lab064.executor": "Run",
+    "Application.Lab001.executor": "Run",
+    "Application.Lab002.executor": "Run",
+    "Application.Lab060.executor": "Run",
+    "Application.Lab061.executor": "Run",
+    "Application.Lab062.executor": "Run",
+    "Application.Lab063.executor": "Run",
+    "Application.Lab064.executor": "Run",
+    "Application.Lab065_Scanner.executor": "Run",
+    "Application.Lab066.executor": "Run",
+    "Application.Lab066_if.executor": "Run",
+    "Application.Lab067.executor": "Run",
+    "Application.Lab067_if_else.executor": "Run",
+    "Application.Lab068.executor": "Debug",
+    "Application.Lab069.executor": "Debug",
+    "Application.Lab070.executor": "Run",
+    "Application.Lab071_odd_even.executor": "Debug",
+    "Application.Lab072_if_elseif_else.executor": "Run",
+    "Application.Lab076.executor": "Run",
+    "Application.Lab078.executor": "Run",
+    "Application.Lab080.executor": "Run",
+    "Application.Lab081.executor": "Run",
+    "Application.Lab085.executor": "Debug",
+    "Application.Lab086.executor": "Run",
+    "Application.Lab087.executor": "Run",
+    "Application.Lab088.executor": "Run",
+    "Application.Lab089.executor": "Run",
+    "Application.Lab090.executor": "Run",
+    "Application.Lab092.executor": "Run",
+    "Application.Lab094.executor": "Run",
+    "Application.Lab095.executor": "Run",
+    "Application.Lab096.executor": "Run",
+    "Application.Lab097.executor": "Run",
+    "Application.Lab098.executor": "Run",
+    "Application.Lab099.executor": "Run",
+    "Application.Lab100.executor": "Debug",
+    "Application.Lab101.executor": "Debug",
+    "Application.Lab102.executor": "Run",
+    "Application.Lab103.executor": "Run",
+    "Application.Lab104.executor": "Run",
+    "Application.Lab106.executor": "Run",
+    "Application.Lab108.executor": "Run",
+    "Application.Lab109_Do_While.executor": "Run",
+    "Application.Lab110.executor": "Run",
+    "Application.Lab111.executor": "Run",
+    "Application.Lab112.executor": "Run",
+    "Application.Lab114.executor": "Run",
+    "Application.Lab119.executor": "Run",
+    "Application.Lab121.executor": "Run",
+    "Application.Lab122_String_equalspart_2.executor": "Run",
+    "Application.Lab123.executor": "Run",
+    "Application.Lab124_String_Builder_vs_String_Buffer.executor": "Run",
+    "Application.Lab125_Array.executor": "Run",
+    "Application.Lab126_Arrayp2.executor": "Run",
+    "Application.Lab128_Iterate.executor": "Run",
+    "Application.Lab129Max_Min_value_Array.executor": "Run",
+    "Application.Lab129_eassy_way.executor": "Run",
+    "Application.Lab130_Array_User_input.executor": "Run",
+    "Application.Lab130_Empty_Array.executor": "Run",
+    "Application.Lab131.executor": "Run",
+    "Application.Lab132_For_Each_Loop.executor": "Run",
+    "Application.Lab135_Arrays_2D_Iterate.executor": "Run",
+    "Application.Lab137.executor": "Run",
+    "Application.Lab139_oops_object_class.executor": "Run",
+    "Application.Lab140_Cat_obj_with_Runner.executor": "Run",
+    "Application.Lab142_Constructor.executor": "Run",
+    "Application.Lab143_Constructor_p2.executor": "Run",
+    "Application.Lab144_default_constructor.executor": "Run",
+    "Application.Lab145_Contructor_Overloading.executor": "Run",
+    "Application.Lab145_Single_Inheritance.executor": "Run",
+    "Application.Lab147_Mulilevel.executor": "Run",
+    "Application.Lab148_Hiearchical.executor": "Run",
+    "Application.Lab_149.executor": "Run",
+    "Application.Lab_150.executor": "Run",
+    "Application.Lab_151.executor": "Run",
+    "Application.Lab_153.executor": "Run",
+    "Application.Lab_154.executor": "Run",
+    "Application.Lab_155_Super.executor": "Run",
+    "Application.Lab_157_Abtraction.executor": "Run",
+    "Application.Lab_158_Abstract.executor": "Run",
+    "Application.Lab_159.executor": "Run",
+    "Application.Lab_160_Interface.executor": "Run",
+    "Application.Lab_162_interface.executor": "Run",
+    "Application.Lab_162_interface_Multiple_Inheritance.executor": "Run",
+    "Application.Lab_Lab152.executor": "Run",
+    "Application.Lb074_switch.executor": "Run",
+    "Application.Python.executor": "Run",
+    "Application.Run th Lab107.executor": "Run",
+    "Application.Runner.executor": "Run",
+    "Application.Task15102024.executor": "Run",
+    "Application.Task15102024ID.executor": "Run",
+    "Application.Task15102024max.executor": "Run",
+    "Application.Task151022D.executor": "Run",
+    "Application.Task16102024.Task161020242.executor": "Run",
+    "Application.Task161020241.executor": "Run",
+    "Application.Task17102024_Gradecal.executor": "Run",
+    "Application.Task17102024_Triangle.executor": "Run",
+    "Application.Task18102024_Month.executor": "Run",
+    "Application.Task18102024cal.executor": "Run",
+    "Application.Task2.executor": "Run",
+    "Application.Task3.executor": "Run",
+    "Application.Thief.executor": "Run",
+    "Application.functions.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "C:/Users/HP/IdeaProjects/ATB9xJavaPrograms/src/Main.java",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;,
-      &quot;module&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory",
+      "module"
     ]
   }
-}</component>
-  <component name="RunManager" selected="Application.Lab_154">
+}]]></component>
+  <component name="RunManager" selected="Application.Lab_162_multiple_interface">
     <configuration name="Fresh Lab064" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Octex_16102024.Lab064_argument_console" />
       <module name="ATB9xJavaPrograms" />
@@ -180,12 +189,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lab_153" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Novex_05112024_Oops.Novex_08112024_Oop_Encapsulation.Lab_153" />
+    <configuration name="Lab_157_Abtraction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Novex_05112024_Oops.Novex_11112024_Oops_Super_Keyword_Abstraction.Lab_157_Abtraction" />
       <module name="ATB9xJavaPrograms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Novex_05112024_Oops.Novex_08112024_Oop_Encapsulation.*" />
+          <option name="PATTERN" value="Novex_05112024_Oops.Novex_11112024_Oops_Super_Keyword_Abstraction.Lab_162_multiple_interface" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -193,12 +202,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lab_154" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Novex_05112024_Oops.Novex_11112024_Oops_Access_Modifiers.Lab_154" />
+    <configuration name="Lab_158_Abstract" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Novex_05112024_Oops.Novex_11112024_Oops_Super_Keyword_Abstraction.Lab_158_Abstract" />
       <module name="ATB9xJavaPrograms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Novex_05112024_Oops.Novex_11112024_Oops_Access_Modifiers.*" />
+          <option name="PATTERN" value="Novex_05112024_Oops.Novex_11112024_Oops_Super_Keyword_Abstraction.Lab_162_multiple_interface" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -206,12 +215,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lab_Lab152" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Novex_05112024_Oops.Novex_08112024_Oop_Encapsulation.Lab_Lab152" />
+    <configuration name="Lab_159" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Novex_05112024_Oops.Novex_11112024_Oops_Super_Keyword_Abstraction.Lab_159" />
       <module name="ATB9xJavaPrograms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Novex_05112024_Oops.Novex_08112024_Oop_Encapsulation.*" />
+          <option name="PATTERN" value="Novex_05112024_Oops.Novex_11112024_Oops_Super_Keyword_Abstraction.Lab_162_multiple_interface" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -219,12 +228,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Thief" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Novex_05112024_Oops.Novex_11112024_Oops_Access_Modifiers.Criminal.Thief" />
+    <configuration name="Lab_160_Interface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Novex_05112024_Oops.Novex_11112024_Oops_Super_Keyword_Abstraction.Lab_160_Interface" />
       <module name="ATB9xJavaPrograms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Novex_05112024_Oops.Novex_11112024_Oops_Access_Modifiers.Criminal.*" />
+          <option name="PATTERN" value="Novex_05112024_Oops.Novex_11112024_Oops_Super_Keyword_Abstraction.Lab_162_multiple_interface" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -232,52 +241,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="[Local] Novex_05112024_Oops.Novex_08112024_Oop_Encapsulation.Lab_Lab152::main" type="aws.lambda" factoryName="Local" temporary="true" nameIsGenerated="true">
-      <option name="credentialProviderId" />
-      <option name="regionId" value="us-east-1" />
-      <option name="debugHost" value="localhost" />
-      <option name="architecture" />
-      <option name="environmentVariables">
-        <map />
-      </option>
-      <option name="handler" value="Novex_05112024_Oops.Novex_08112024_Oop_Encapsulation.Lab_Lab152::main" />
-      <option name="image" value="false" />
-      <option name="logicalFunctionName" />
-      <option name="memorySize" value="128" />
-      <option name="pathMappings">
-        <list />
-      </option>
-      <option name="platform" />
-      <option name="runtime" />
-      <option name="templateFile" />
-      <option name="timeout" value="300" />
-      <option name="useTemplate" value="false" />
-      <option name="input" />
-      <option name="inputIsFile" value="false" />
-      <sam>
-        <option name="additionalBuildArgs" />
-        <option name="additionalLocalArgs" />
-        <option name="buildInContainer" value="false" />
-        <option name="dockerNetwork" />
-        <option name="skipImagePull" value="false" />
-      </sam>
-      <method v="2" />
+    <configuration name="Lab_162_multiple_interface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Novex_05112024_Oops.Novex_11112024_Oops_Super_Keyword_Abstraction.Lab_162_multiple_interface" />
+      <module name="ATB9xJavaPrograms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Novex_05112024_Oops.Novex_11112024_Oops_Super_Keyword_Abstraction.Lab_162_multiple_interface" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <list>
       <item itemvalue="Application.Fresh Lab064" />
-      <item itemvalue="Application.Lab_154" />
-      <item itemvalue="Application.Thief" />
-      <item itemvalue="Application.Lab_153" />
-      <item itemvalue="Application.Lab_Lab152" />
-      <item itemvalue="AWS Lambda.[Local] Novex_05112024_Oops.Novex_08112024_Oop_Encapsulation.Lab_Lab152::main" />
+      <item itemvalue="Application.Lab_157_Abtraction" />
+      <item itemvalue="Application.Lab_158_Abstract" />
+      <item itemvalue="Application.Lab_159" />
+      <item itemvalue="Application.Lab_160_Interface" />
+      <item itemvalue="Application.Lab_162_multiple_interface" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Lab_154" />
-        <item itemvalue="Application.Thief" />
-        <item itemvalue="Application.Lab_153" />
-        <item itemvalue="Application.Lab_Lab152" />
-        <item itemvalue="AWS Lambda.[Local] Novex_05112024_Oops.Novex_08112024_Oop_Encapsulation.Lab_Lab152::main" />
+        <item itemvalue="Application.Lab_162_multiple_interface" />
+        <item itemvalue="Application.Lab_160_Interface" />
+        <item itemvalue="Application.Lab_159" />
+        <item itemvalue="Application.Lab_158_Abstract" />
+        <item itemvalue="Application.Lab_157_Abtraction" />
       </list>
     </recent_temporary>
   </component>
@@ -450,7 +441,23 @@
       <option name="project" value="LOCAL" />
       <updated>1731755368466</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <option name="closed" value="true" />
+      <created>1731755521559</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1731755521559</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <option name="closed" value="true" />
+      <created>1731755573045</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1731755573045</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
