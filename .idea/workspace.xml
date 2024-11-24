@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="586ad5a8-517e-48bf-a743-437f241b599f" name="Changes" comment="Merge remote-tracking branch 'origin/master'" />
+    <list default="true" id="586ad5a8-517e-48bf-a743-437f241b599f" name="Changes" comment="19">
+      <change afterPath="$PROJECT_DIR$/src/Novex_20112024_List/Lab_201_List.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Novex_20112024_List/Lab_202_Vector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Novex_20112024_List/Lab_203_ArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Novex_20112024_List/Lab_204_Nested_ArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Novex_20112024_List/Lab_205_colection_reverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Novex_20112024_List/Lab_206_ArrayList_Inputs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -158,6 +166,11 @@
     "Application.Lab_197_generic_solution.executor": "Run",
     "Application.Lab_199_Array_List.executor": "Run",
     "Application.Lab_200_Array_LIst.executor": "Run",
+    "Application.Lab_202_Vector.executor": "Run",
+    "Application.Lab_203_ArrayList.executor": "Run",
+    "Application.Lab_204_Nested_ArrayList.executor": "Run",
+    "Application.Lab_205_colection_reverse.executor": "Run",
+    "Application.Lab_206_ArrayList_Inputs.executor": "Run",
     "Application.Lab_Lab152.executor": "Run",
     "Application.Lb074_switch.executor": "Run",
     "Application.Python.executor": "Run",
@@ -192,7 +205,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Lab_200_Array_LIst">
+  <component name="RunManager" selected="Application.Lab_205_colection_reverse">
     <configuration name="Fresh Lab064" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Octex_16102024.Lab064_argument_console" />
       <module name="ATB9xJavaPrograms" />
@@ -201,15 +214,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lab_194_custom_exception_runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Lab_202_Vector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/openjdk-23" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Novex_05112024_Oops.Novex_18112024_Oops_Exception_2.Lab_194_custom_exception_runner" />
+      <option name="MAIN_CLASS_NAME" value="Novex_20112024_List.Lab_202_Vector" />
       <module name="ATB9xJavaPrograms" />
       <option name="PROGRAM_PARAMETERS" value="100" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Novex_05112024_Oops.Novex_18112024_Oops_Exception_2.*" />
+          <option name="PATTERN" value="Novex_20112024_List.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -222,15 +235,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lab_196_finally_not_exe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Lab_203_ArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/openjdk-23" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Novex_05112024_Oops.Novex_18112024_Oops_Exception_2.Lab_196_finally_not_exe" />
+      <option name="MAIN_CLASS_NAME" value="Novex_20112024_List.Lab_203_ArrayList" />
       <module name="ATB9xJavaPrograms" />
       <option name="PROGRAM_PARAMETERS" value="100" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Novex_05112024_Oops.Novex_18112024_Oops_Exception_2.*" />
+          <option name="PATTERN" value="Novex_20112024_List.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -243,15 +256,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lab_197_generic_solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Lab_204_Nested_ArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/openjdk-23" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Novex_19112024_Gererics.Lab_197_generic_solution" />
+      <option name="MAIN_CLASS_NAME" value="Novex_20112024_List.Lab_204_Nested_ArrayList" />
       <module name="ATB9xJavaPrograms" />
       <option name="PROGRAM_PARAMETERS" value="100" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Novex_19112024_Gererics.*" />
+          <option name="PATTERN" value="Novex_20112024_List.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -264,15 +277,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lab_199_Array_List" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Lab_205_colection_reverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/openjdk-23" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Novex_19112024_Collections.Lab_199_Array_List" />
+      <option name="MAIN_CLASS_NAME" value="Novex_20112024_List.Lab_205_colection_reverse" />
       <module name="ATB9xJavaPrograms" />
       <option name="PROGRAM_PARAMETERS" value="100" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Novex_19112024_Collections.*" />
+          <option name="PATTERN" value="Novex_20112024_List.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -285,15 +298,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lab_200_Array_LIst" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Lab_206_ArrayList_Inputs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/openjdk-23" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Novex_19112024_Collections.Lab_200_Array_LIst" />
+      <option name="MAIN_CLASS_NAME" value="Novex_20112024_List.Lab_206_ArrayList_Inputs" />
       <module name="ATB9xJavaPrograms" />
       <option name="PROGRAM_PARAMETERS" value="100" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Novex_19112024_Collections.*" />
+          <option name="PATTERN" value="Novex_20112024_List.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -323,19 +336,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Fresh Lab064" />
-      <item itemvalue="Application.Lab_197_generic_solution" />
-      <item itemvalue="Application.Lab_199_Array_List" />
-      <item itemvalue="Application.Lab_200_Array_LIst" />
-      <item itemvalue="Application.Lab_194_custom_exception_runner" />
-      <item itemvalue="Application.Lab_196_finally_not_exe" />
+      <item itemvalue="Application.Lab_202_Vector" />
+      <item itemvalue="Application.Lab_203_ArrayList" />
+      <item itemvalue="Application.Lab_204_Nested_ArrayList" />
+      <item itemvalue="Application.Lab_205_colection_reverse" />
+      <item itemvalue="Application.Lab_206_ArrayList_Inputs" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Lab_200_Array_LIst" />
-        <item itemvalue="Application.Lab_199_Array_List" />
-        <item itemvalue="Application.Lab_197_generic_solution" />
-        <item itemvalue="Application.Lab_196_finally_not_exe" />
-        <item itemvalue="Application.Lab_194_custom_exception_runner" />
+        <item itemvalue="Application.Lab_205_colection_reverse" />
+        <item itemvalue="Application.Lab_206_ArrayList_Inputs" />
+        <item itemvalue="Application.Lab_204_Nested_ArrayList" />
+        <item itemvalue="Application.Lab_203_ArrayList" />
+        <item itemvalue="Application.Lab_202_Vector" />
       </list>
     </recent_temporary>
   </component>
@@ -620,7 +633,23 @@
       <option name="project" value="LOCAL" />
       <updated>1732447906522</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Merge remote-tracking branch 'origin/master'">
+      <option name="closed" value="true" />
+      <created>1732456649738</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1732456649738</updated>
+    </task>
+    <task id="LOCAL-00036" summary="19">
+      <option name="closed" value="true" />
+      <created>1732456698683</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1732456698683</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -659,9 +688,9 @@
     <MESSAGE value="pushing 12th nov code" />
     <MESSAGE value="pushing 15th nov code" />
     <MESSAGE value="pushing 18th nov code" />
-    <MESSAGE value="19" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'" />
+    <MESSAGE value="19" />
+    <option name="LAST_COMMIT_MESSAGE" value="19" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -718,6 +747,10 @@
           </properties>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="18" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
