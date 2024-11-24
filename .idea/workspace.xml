@@ -4,7 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="586ad5a8-517e-48bf-a743-437f241b599f" name="Changes" comment="Merge remote-tracking branch 'origin/master'" />
+    <list default="true" id="586ad5a8-517e-48bf-a743-437f241b599f" name="Changes" comment="20">
+      <change afterPath="$PROJECT_DIR$/src/Novex_21112024_List_collection_Framework/Lab211_AL_Class.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Novex_21112024_List_collection_Framework/Lab_207_LL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Novex_21112024_List_collection_Framework/Lab_208_AL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Novex_21112024_List_collection_Framework/Lab_209_AL_Iterate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Novex_21112024_List_collection_Framework/Lab_210_stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Novex_21112024_List_collection_Framework/Lab_212_SET.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Novex_21112024_List_collection_Framework/Lab_213_HS_LHS_TS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Novex_21112024_List_collection_Framework/Lab_214_HS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Novex_21112024_List_collection_Framework/Lab_215_Vector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Novex_21112024_List_collection_Framework/Lab_216_Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Novex_21112024_List_collection_Framework/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Novex_22112024_Map_collection_Framework/Lab_217_Map.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Novex_22112024_Map_collection_Framework/Lab_218.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Novex_22112024_Map_collection_Framework/Lab_219_Map_Real_Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Novex_22112024_Map_collection_Framework/Lab_220_map.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Novex_22112024_Map_collection_Framework/Lab_Map_221.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Novex_22112024_Map_collection_Framework/Lab_Map_222.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -125,6 +144,7 @@
     "Application.Lab145_Single_Inheritance.executor": "Run",
     "Application.Lab147_Mulilevel.executor": "Run",
     "Application.Lab148_Hiearchical.executor": "Run",
+    "Application.Lab211_AL_Class.executor": "Run",
     "Application.Lab_149.executor": "Run",
     "Application.Lab_150.executor": "Run",
     "Application.Lab_151.executor": "Run",
@@ -158,7 +178,26 @@
     "Application.Lab_197_generic_solution.executor": "Run",
     "Application.Lab_199_Array_List.executor": "Run",
     "Application.Lab_200_Array_LIst.executor": "Run",
+    "Application.Lab_202_Vector.executor": "Run",
+    "Application.Lab_203_ArrayList.executor": "Run",
+    "Application.Lab_204_Nested_ArrayList.executor": "Run",
+    "Application.Lab_205_colection_reverse.executor": "Run",
+    "Application.Lab_206_ArrayList_Inputs.executor": "Run",
+    "Application.Lab_208_AL.executor": "Run",
+    "Application.Lab_209_AL_Iterate.executor": "Run",
+    "Application.Lab_210_stack.executor": "Run",
+    "Application.Lab_212_SET.executor": "Run",
+    "Application.Lab_213_HS_LHS_TS.executor": "Run",
+    "Application.Lab_214_HS.executor": "Run",
+    "Application.Lab_215_Queue.executor": "Run",
+    "Application.Lab_215_Vector.executor": "Run",
+    "Application.Lab_217_Map.executor": "Run",
+    "Application.Lab_218.executor": "Run",
+    "Application.Lab_219_Map_Real_Example.executor": "Run",
+    "Application.Lab_220_map.executor": "Run",
     "Application.Lab_Lab152.executor": "Run",
+    "Application.Lab_Map_222.executor": "Run",
+    "Application.Lab_Map_224.executor": "Run",
     "Application.Lb074_switch.executor": "Run",
     "Application.Python.executor": "Run",
     "Application.Run th Lab107.executor": "Run",
@@ -183,6 +222,7 @@
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "C:/Users/HP/IdeaProjects/ATB9xJavaPrograms/src/Main.java",
+    "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   },
   "keyToStringList": {
@@ -192,7 +232,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Lab_200_Array_LIst">
+  <component name="RunManager" selected="Application.Lab_Map_222">
     <configuration name="Fresh Lab064" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Octex_16102024.Lab064_argument_console" />
       <module name="ATB9xJavaPrograms" />
@@ -201,15 +241,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lab_194_custom_exception_runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Lab_218" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/openjdk-23" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Novex_05112024_Oops.Novex_18112024_Oops_Exception_2.Lab_194_custom_exception_runner" />
+      <option name="MAIN_CLASS_NAME" value="Novex_22112024_Map_collection_Framework.Lab_218" />
       <module name="ATB9xJavaPrograms" />
       <option name="PROGRAM_PARAMETERS" value="100" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Novex_05112024_Oops.Novex_18112024_Oops_Exception_2.*" />
+          <option name="PATTERN" value="Novex_22112024_Map_collection_Framework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -222,15 +262,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lab_196_finally_not_exe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Lab_219_Map_Real_Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/openjdk-23" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Novex_05112024_Oops.Novex_18112024_Oops_Exception_2.Lab_196_finally_not_exe" />
+      <option name="MAIN_CLASS_NAME" value="Novex_22112024_Map_collection_Framework.Lab_219_Map_Real_Example" />
       <module name="ATB9xJavaPrograms" />
       <option name="PROGRAM_PARAMETERS" value="100" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Novex_05112024_Oops.Novex_18112024_Oops_Exception_2.*" />
+          <option name="PATTERN" value="Novex_22112024_Map_collection_Framework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -243,15 +283,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lab_197_generic_solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Lab_220_map" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/openjdk-23" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Novex_19112024_Gererics.Lab_197_generic_solution" />
+      <option name="MAIN_CLASS_NAME" value="Novex_22112024_Map_collection_Framework.Lab_220_map" />
       <module name="ATB9xJavaPrograms" />
       <option name="PROGRAM_PARAMETERS" value="100" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Novex_19112024_Gererics.*" />
+          <option name="PATTERN" value="Novex_22112024_Map_collection_Framework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -264,15 +304,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lab_199_Array_List" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Lab_Map_221" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/openjdk-23" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Novex_19112024_Collections.Lab_199_Array_List" />
+      <option name="MAIN_CLASS_NAME" value="Novex_22112024_Map_collection_Framework.Lab_Map_221" />
       <module name="ATB9xJavaPrograms" />
       <option name="PROGRAM_PARAMETERS" value="100" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Novex_19112024_Collections.*" />
+          <option name="PATTERN" value="Novex_22112024_Map_collection_Framework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -285,15 +325,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lab_200_Array_LIst" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Lab_Map_222" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/openjdk-23" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Novex_19112024_Collections.Lab_200_Array_LIst" />
+      <option name="MAIN_CLASS_NAME" value="Novex_22112024_Map_collection_Framework.Lab_Map_222" />
       <module name="ATB9xJavaPrograms" />
       <option name="PROGRAM_PARAMETERS" value="100" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Novex_19112024_Collections.*" />
+          <option name="PATTERN" value="Novex_22112024_Map_collection_Framework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -323,19 +363,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Fresh Lab064" />
-      <item itemvalue="Application.Lab_197_generic_solution" />
-      <item itemvalue="Application.Lab_199_Array_List" />
-      <item itemvalue="Application.Lab_200_Array_LIst" />
-      <item itemvalue="Application.Lab_194_custom_exception_runner" />
-      <item itemvalue="Application.Lab_196_finally_not_exe" />
+      <item itemvalue="Application.Lab_218" />
+      <item itemvalue="Application.Lab_219_Map_Real_Example" />
+      <item itemvalue="Application.Lab_220_map" />
+      <item itemvalue="Application.Lab_Map_221" />
+      <item itemvalue="Application.Lab_Map_222" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Lab_200_Array_LIst" />
-        <item itemvalue="Application.Lab_199_Array_List" />
-        <item itemvalue="Application.Lab_197_generic_solution" />
-        <item itemvalue="Application.Lab_196_finally_not_exe" />
-        <item itemvalue="Application.Lab_194_custom_exception_runner" />
+        <item itemvalue="Application.Lab_Map_222" />
+        <item itemvalue="Application.Lab_Map_221" />
+        <item itemvalue="Application.Lab_220_map" />
+        <item itemvalue="Application.Lab_219_Map_Real_Example" />
+        <item itemvalue="Application.Lab_218" />
       </list>
     </recent_temporary>
   </component>
@@ -620,7 +660,31 @@
       <option name="project" value="LOCAL" />
       <updated>1732447906522</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Merge remote-tracking branch 'origin/master'">
+      <option name="closed" value="true" />
+      <created>1732456649738</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1732456649738</updated>
+    </task>
+    <task id="LOCAL-00036" summary="19">
+      <option name="closed" value="true" />
+      <created>1732456698683</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1732456698683</updated>
+    </task>
+    <task id="LOCAL-00037" summary="20">
+      <option name="closed" value="true" />
+      <created>1732464202127</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1732464202127</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -659,9 +723,10 @@
     <MESSAGE value="pushing 12th nov code" />
     <MESSAGE value="pushing 15th nov code" />
     <MESSAGE value="pushing 18th nov code" />
-    <MESSAGE value="19" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'" />
+    <MESSAGE value="19" />
+    <MESSAGE value="20" />
+    <option name="LAST_COMMIT_MESSAGE" value="20" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -718,6 +783,10 @@
           </properties>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="18" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
