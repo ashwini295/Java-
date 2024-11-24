@@ -1,0 +1,935 @@
+Index: src/Novex_05112024_Oops/Novex_18112024_Oops_Exception_2/Bank.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Novex_05112024_Oops/Novex_18112024_Oops_Exception_2/Bank.java b/src/Novex_05112024_Oops/Novex_18112024_Oops_Exception_2/Bank.java
+new file mode 100644
+--- /dev/null	(date 1732438178463)
++++ b/src/Novex_05112024_Oops/Novex_18112024_Oops_Exception_2/Bank.java	(date 1732438178463)
+@@ -0,0 +1,37 @@
++package Novex_05112024_Oops.Novex_18112024_Oops_Exception_2;
++
++public class Bank
++{
++    public Bank(String currency, Integer amount) {
++        Currency = currency;
++        Amount = amount;
++    }
++
++    public String getCurrency() {
++        return Currency;
++    }
++
++    public void setCurrency(String currency) {
++        Currency = currency;
++    }
++
++    public void setAmount(Integer amount) {
++        Amount = amount;
++    }
++
++    public Integer getAmount() {
++        return Amount;
++    }
++
++    private String Currency;
++    private  Integer Amount;
++
++
++    public Integer add(Bank bankName) throws Exception {
++        if(!bankName.Currency.equalsIgnoreCase("INR"))
++        {
++            throw new Exception("Curremcy Mismatch Exception");
++        }
++        return bankName.Amount +  this.Amount;
++    }
++}
+Index: src/Novex_05112024_Oops/Novex_18112024_Oops_Exception_2/Lab_194_custom_exception_runner.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Novex_05112024_Oops/Novex_18112024_Oops_Exception_2/Lab_194_custom_exception_runner.java b/src/Novex_05112024_Oops/Novex_18112024_Oops_Exception_2/Lab_194_custom_exception_runner.java
+new file mode 100644
+--- /dev/null	(date 1732438178526)
++++ b/src/Novex_05112024_Oops/Novex_18112024_Oops_Exception_2/Lab_194_custom_exception_runner.java	(date 1732438178526)
+@@ -0,0 +1,15 @@
++package Novex_05112024_Oops.Novex_18112024_Oops_Exception_2;
++
++public class Lab_194_custom_exception_runner
++{
++    public static void main(String[] args) throws Exception {
++        Bank sbi = new Bank("INR", 1000);
++        Bank ICICI = new Bank("INR", 2000);
++        System.out.println(sbi.add(ICICI));
++
++
++        Bank jp_chase = new Bank("USD",800);
++        //1000+800*85
++        System.out.println(sbi.add(jp_chase));
++    }
++}
+Index: src/Novex_18112024_why_we_need_collection_framework/Lab_196.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Novex_18112024_why_we_need_collection_framework/Lab_196.java b/src/Novex_18112024_why_we_need_collection_framework/Lab_196.java
+new file mode 100644
+--- /dev/null	(date 1732438178541)
++++ b/src/Novex_18112024_why_we_need_collection_framework/Lab_196.java	(date 1732438178541)
+@@ -0,0 +1,8 @@
++package Novex_18112024_why_we_need_collection_framework;
++
++public class Lab_196
++{
++    public static void main(String[] args) {
++
++    }
++}
+Index: src/Novex_05112024_Oops/Novex_18112024_Oops_Exception_2/Lab_196_finally_not_exe.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Novex_05112024_Oops/Novex_18112024_Oops_Exception_2/Lab_196_finally_not_exe.java b/src/Novex_05112024_Oops/Novex_18112024_Oops_Exception_2/Lab_196_finally_not_exe.java
+new file mode 100644
+--- /dev/null	(date 1732438178573)
++++ b/src/Novex_05112024_Oops/Novex_18112024_Oops_Exception_2/Lab_196_finally_not_exe.java	(date 1732438178573)
+@@ -0,0 +1,21 @@
++package Novex_05112024_Oops.Novex_18112024_Oops_Exception_2;
++
++public class Lab_196_finally_not_exe
++{
++    public static void main(String[] args) {
++        try
++        {
++            int a = 10/10; //in this case only fnally will not exe
++            //System.exit(0);
++
++        }
++        catch (Exception e)
++        {
++            System.out.println(e.getMessage());
++        }
++        finally {
++            System.out.println("Not ptinted");
++        }
++
++    }
++}
+Index: src/Novex_05112024_Oops/Novex_18112024_Oops_Exception_2/Lab_185_Finally.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Novex_05112024_Oops/Novex_18112024_Oops_Exception_2/Lab_185_Finally.java b/src/Novex_05112024_Oops/Novex_18112024_Oops_Exception_2/Lab_185_Finally.java
+new file mode 100644
+--- /dev/null	(date 1732438178588)
++++ b/src/Novex_05112024_Oops/Novex_18112024_Oops_Exception_2/Lab_185_Finally.java	(date 1732438178588)
+@@ -0,0 +1,22 @@
++package Novex_05112024_Oops.Novex_18112024_Oops_Exception_2;
++
++import java.util.Scanner;
++
++public class Lab_185_Finally
++{
++    public static void main(String[] args)
++    {Scanner sc = null;
++        sc = new Scanner(System.in);
++        int v = sc.nextInt();
++        try {
++            int a = 10/0;
++        } catch (Exception e) {
++            throw new RuntimeException(e);
++        }
++        finally {
++            System.out.println("Hello");
++            sc.close();
++        }
++
++    }
++}
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"586ad5a8-517e-48bf-a743-437f241b599f\" name=\"Changes\" comment=\"pushing 12th nov code\">\r\n      <change afterPath=\"$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_14112024_Oops_Static_Keyword_ENUM/APIContantsEndPoints.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_14112024_Oops_Static_Keyword_ENUM/Lab_163_Static_Keyword.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_14112024_Oops_Static_Keyword_ENUM/Lab_164_static_SIB_IIB.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_14112024_Oops_Static_Keyword_ENUM/Lab_165_Real_SIB_IIB.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_14112024_Oops_Static_Keyword_ENUM/Lab_166.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_14112024_Oops_Static_Keyword_ENUM/Lab_167_ENUM.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_14112024_Oops_Static_Keyword_ENUM/Lab_168_ENUM2.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_14112024_Oops_Static_Keyword_ENUM/Lab_170_ENUM3.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_14112024_Oops_Static_Keyword_ENUM/Lab_171_ENUM3_main.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_14112024_Oops_Static_Keyword_ENUM/endpoint_main.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_15112024_Oops_Wrpper_Class_Exception_H/Lab_172_wrapper.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_15112024_Oops_Wrpper_Class_Exception_H/Lab_173_wrapper.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_15112024_Oops_Wrpper_Class_Exception_H/Lab_174_Wrapper_Conversion.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_15112024_Oops_Wrpper_Class_Exception_H/Lab_175_Exception_problem.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_15112024_Oops_Wrpper_Class_Exception_H/Lab_176_Exceptions.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_15112024_Oops_Wrpper_Class_Exception_H/Lab_176_handle_exception.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_15112024_Oops_Wrpper_Class_Exception_H/Lab_177_Exception_handleing.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"package-info\" />\r\n        <option value=\"Enum\" />\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"PUSH_TAGS\">\r\n      <GitPushTagMode>\r\n        <option name=\"argument\" value=\"--follow-tags\" />\r\n        <option name=\"title\" value=\"Current Branch\" />\r\n      </GitPushTagMode>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;ashwini295&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/ashwini295/Java-&quot;,\r\n    &quot;accountId&quot;: &quot;50602265-7216-466e-af3a-fad7a758e7ce&quot;\r\n  }\r\n}</component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 5\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2mw3BwG639fkul4G6b2nTnnElsN\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"Application.Fresh Lab064.executor\": \"Run\",\r\n    \"Application.Lab001.executor\": \"Run\",\r\n    \"Application.Lab002.executor\": \"Run\",\r\n    \"Application.Lab060.executor\": \"Run\",\r\n    \"Application.Lab061.executor\": \"Run\",\r\n    \"Application.Lab062.executor\": \"Run\",\r\n    \"Application.Lab063.executor\": \"Run\",\r\n    \"Application.Lab064.executor\": \"Run\",\r\n    \"Application.Lab065_Scanner.executor\": \"Run\",\r\n    \"Application.Lab066.executor\": \"Run\",\r\n    \"Application.Lab066_if.executor\": \"Run\",\r\n    \"Application.Lab067.executor\": \"Run\",\r\n    \"Application.Lab067_if_else.executor\": \"Run\",\r\n    \"Application.Lab068.executor\": \"Debug\",\r\n    \"Application.Lab069.executor\": \"Debug\",\r\n    \"Application.Lab070.executor\": \"Run\",\r\n    \"Application.Lab071_odd_even.executor\": \"Debug\",\r\n    \"Application.Lab072_if_elseif_else.executor\": \"Run\",\r\n    \"Application.Lab076.executor\": \"Run\",\r\n    \"Application.Lab078.executor\": \"Run\",\r\n    \"Application.Lab080.executor\": \"Run\",\r\n    \"Application.Lab081.executor\": \"Run\",\r\n    \"Application.Lab085.executor\": \"Debug\",\r\n    \"Application.Lab086.executor\": \"Run\",\r\n    \"Application.Lab087.executor\": \"Run\",\r\n    \"Application.Lab088.executor\": \"Run\",\r\n    \"Application.Lab089.executor\": \"Run\",\r\n    \"Application.Lab090.executor\": \"Run\",\r\n    \"Application.Lab092.executor\": \"Run\",\r\n    \"Application.Lab094.executor\": \"Run\",\r\n    \"Application.Lab095.executor\": \"Run\",\r\n    \"Application.Lab096.executor\": \"Run\",\r\n    \"Application.Lab097.executor\": \"Run\",\r\n    \"Application.Lab098.executor\": \"Run\",\r\n    \"Application.Lab099.executor\": \"Run\",\r\n    \"Application.Lab100.executor\": \"Debug\",\r\n    \"Application.Lab101.executor\": \"Debug\",\r\n    \"Application.Lab102.executor\": \"Run\",\r\n    \"Application.Lab103.executor\": \"Run\",\r\n    \"Application.Lab104.executor\": \"Run\",\r\n    \"Application.Lab106.executor\": \"Run\",\r\n    \"Application.Lab108.executor\": \"Run\",\r\n    \"Application.Lab109_Do_While.executor\": \"Run\",\r\n    \"Application.Lab110.executor\": \"Run\",\r\n    \"Application.Lab111.executor\": \"Run\",\r\n    \"Application.Lab112.executor\": \"Run\",\r\n    \"Application.Lab114.executor\": \"Run\",\r\n    \"Application.Lab119.executor\": \"Run\",\r\n    \"Application.Lab121.executor\": \"Run\",\r\n    \"Application.Lab122_String_equalspart_2.executor\": \"Run\",\r\n    \"Application.Lab123.executor\": \"Run\",\r\n    \"Application.Lab124_String_Builder_vs_String_Buffer.executor\": \"Run\",\r\n    \"Application.Lab125_Array.executor\": \"Run\",\r\n    \"Application.Lab126_Arrayp2.executor\": \"Run\",\r\n    \"Application.Lab128_Iterate.executor\": \"Run\",\r\n    \"Application.Lab129Max_Min_value_Array.executor\": \"Run\",\r\n    \"Application.Lab129_eassy_way.executor\": \"Run\",\r\n    \"Application.Lab130_Array_User_input.executor\": \"Run\",\r\n    \"Application.Lab130_Empty_Array.executor\": \"Run\",\r\n    \"Application.Lab131.executor\": \"Run\",\r\n    \"Application.Lab132_For_Each_Loop.executor\": \"Run\",\r\n    \"Application.Lab135_Arrays_2D_Iterate.executor\": \"Run\",\r\n    \"Application.Lab137.executor\": \"Run\",\r\n    \"Application.Lab139_oops_object_class.executor\": \"Run\",\r\n    \"Application.Lab140_Cat_obj_with_Runner.executor\": \"Run\",\r\n    \"Application.Lab142_Constructor.executor\": \"Run\",\r\n    \"Application.Lab143_Constructor_p2.executor\": \"Run\",\r\n    \"Application.Lab144_default_constructor.executor\": \"Run\",\r\n    \"Application.Lab145_Contructor_Overloading.executor\": \"Run\",\r\n    \"Application.Lab145_Single_Inheritance.executor\": \"Run\",\r\n    \"Application.Lab147_Mulilevel.executor\": \"Run\",\r\n    \"Application.Lab148_Hiearchical.executor\": \"Run\",\r\n    \"Application.Lab_149.executor\": \"Run\",\r\n    \"Application.Lab_150.executor\": \"Run\",\r\n    \"Application.Lab_151.executor\": \"Run\",\r\n    \"Application.Lab_153.executor\": \"Run\",\r\n    \"Application.Lab_154.executor\": \"Run\",\r\n    \"Application.Lab_155_Super.executor\": \"Run\",\r\n    \"Application.Lab_157_Abtraction.executor\": \"Run\",\r\n    \"Application.Lab_158_Abstract.executor\": \"Run\",\r\n    \"Application.Lab_159.executor\": \"Run\",\r\n    \"Application.Lab_160_Interface.executor\": \"Run\",\r\n    \"Application.Lab_162_interface.executor\": \"Run\",\r\n    \"Application.Lab_162_interface_Multiple_Inheritance.executor\": \"Run\",\r\n    \"Application.Lab_162_multiple_interface.executor\": \"Run\",\r\n    \"Application.Lab_163_Static_Keyword.executor\": \"Run\",\r\n    \"Application.Lab_164_static_SIB_IIB.executor\": \"Run\",\r\n    \"Application.Lab_165_Real_SIB_IIB.executor\": \"Run\",\r\n    \"Application.Lab_171_ENUM3_main.executor\": \"Debug\",\r\n    \"Application.Lab_173_wrapper.executor\": \"Run\",\r\n    \"Application.Lab_175_Exception.executor\": \"Run\",\r\n    \"Application.Lab_176_Exceptions.executor\": \"Run\",\r\n    \"Application.Lab_176_handle_exception.executor\": \"Run\",\r\n    \"Application.Lab_177_Exception.executor\": \"Run\",\r\n    \"Application.Lab_Lab152.executor\": \"Run\",\r\n    \"Application.Lb074_switch.executor\": \"Run\",\r\n    \"Application.Python.executor\": \"Run\",\r\n    \"Application.Run th Lab107.executor\": \"Run\",\r\n    \"Application.Runner.executor\": \"Run\",\r\n    \"Application.Task15102024.executor\": \"Run\",\r\n    \"Application.Task15102024ID.executor\": \"Run\",\r\n    \"Application.Task15102024max.executor\": \"Run\",\r\n    \"Application.Task151022D.executor\": \"Run\",\r\n    \"Application.Task16102024.Task161020242.executor\": \"Run\",\r\n    \"Application.Task161020241.executor\": \"Run\",\r\n    \"Application.Task17102024_Gradecal.executor\": \"Run\",\r\n    \"Application.Task17102024_Triangle.executor\": \"Run\",\r\n    \"Application.Task18102024_Month.executor\": \"Run\",\r\n    \"Application.Task18102024cal.executor\": \"Run\",\r\n    \"Application.Task2.executor\": \"Run\",\r\n    \"Application.Task3.executor\": \"Run\",\r\n    \"Application.Thief.executor\": \"Run\",\r\n    \"Application.endpoint_main.executor\": \"Run\",\r\n    \"Application.functions.executor\": \"Run\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"git-widget-placeholder\": \"master\",\r\n    \"kotlin-language-version-configured\": \"true\",\r\n    \"onboarding.tips.debug.path\": \"C:/Users/HP/IdeaProjects/ATB9xJavaPrograms/src/Main.java\",\r\n    \"settings.editor.selected.configurable\": \"preferences.pluginManager\"\r\n  },\r\n  \"keyToStringList\": {\r\n    \"ChangesTree.GroupingKeys\": [\r\n      \"directory\",\r\n      \"module\"\r\n    ]\r\n  }\r\n}]]></component>\r\n  <component name=\"RunManager\" selected=\"Application.Lab_176_handle_exception\">\r\n    <configuration name=\"Fresh Lab064\" type=\"Application\" factoryName=\"Application\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Octex_16102024.Lab064_argument_console\" />\r\n      <module name=\"ATB9xJavaPrograms\" />\r\n      <option name=\"PROGRAM_PARAMETERS\" value=\"80 4 12\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Lab_173_wrapper\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Novex_05112024_Oops.Novex_15112024_Oops_Wrpper_Class_Exception_H.Lab_173_wrapper\" />\r\n      <module name=\"ATB9xJavaPrograms\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"Novex_05112024_Oops.Novex_15112024_Oops_Wrpper_Class_Exception_H.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Lab_175_Exception_problem\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"ALTERNATIVE_JRE_PATH\" value=\"$USER_HOME$/.jdks/openjdk-23\" />\r\n      <option name=\"ALTERNATIVE_JRE_PATH_ENABLED\" value=\"true\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Novex_05112024_Oops.Novex_15112024_Oops_Wrpper_Class_Exception_H.Lab_175_Exception_problem\" />\r\n      <module name=\"ATB9xJavaPrograms\" />\r\n      <option name=\"PROGRAM_PARAMETERS\" value=\"100\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"Novex_05112024_Oops.Novex_15112024_Oops_Wrpper_Class_Exception_H.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <extension name=\"software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension\">\r\n        <option name=\"credential\" />\r\n        <option name=\"region\" />\r\n        <option name=\"useCurrentConnection\" value=\"false\" />\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Lab_176_Exceptions\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"ALTERNATIVE_JRE_PATH\" value=\"$USER_HOME$/.jdks/openjdk-23\" />\r\n      <option name=\"ALTERNATIVE_JRE_PATH_ENABLED\" value=\"true\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Novex_05112024_Oops.Novex_15112024_Oops_Wrpper_Class_Exception_H.Lab_176_Exceptions\" />\r\n      <module name=\"ATB9xJavaPrograms\" />\r\n      <option name=\"PROGRAM_PARAMETERS\" value=\"100\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"Novex_05112024_Oops.Novex_15112024_Oops_Wrpper_Class_Exception_H.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <extension name=\"software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension\">\r\n        <option name=\"credential\" />\r\n        <option name=\"region\" />\r\n        <option name=\"useCurrentConnection\" value=\"false\" />\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Lab_176_handle_exception\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"ALTERNATIVE_JRE_PATH\" value=\"$USER_HOME$/.jdks/openjdk-23\" />\r\n      <option name=\"ALTERNATIVE_JRE_PATH_ENABLED\" value=\"true\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Novex_05112024_Oops.Novex_15112024_Oops_Wrpper_Class_Exception_H.Lab_176_handle_exception\" />\r\n      <module name=\"ATB9xJavaPrograms\" />\r\n      <option name=\"PROGRAM_PARAMETERS\" value=\"100\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"Novex_05112024_Oops.Novex_15112024_Oops_Wrpper_Class_Exception_H.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <extension name=\"software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension\">\r\n        <option name=\"credential\" />\r\n        <option name=\"region\" />\r\n        <option name=\"useCurrentConnection\" value=\"false\" />\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Lab_177_Exception_handleing\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"ALTERNATIVE_JRE_PATH\" value=\"$USER_HOME$/.jdks/openjdk-23\" />\r\n      <option name=\"ALTERNATIVE_JRE_PATH_ENABLED\" value=\"true\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Novex_05112024_Oops.Novex_15112024_Oops_Wrpper_Class_Exception_H.Lab_177_Exception_handleing\" />\r\n      <module name=\"ATB9xJavaPrograms\" />\r\n      <option name=\"PROGRAM_PARAMETERS\" value=\"100\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"Novex_05112024_Oops.Novex_15112024_Oops_Wrpper_Class_Exception_H.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <extension name=\"software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension\">\r\n        <option name=\"credential\" />\r\n        <option name=\"region\" />\r\n        <option name=\"useCurrentConnection\" value=\"false\" />\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration default=\"true\" type=\"Application\" factoryName=\"Application\">\r\n      <option name=\"ALTERNATIVE_JRE_PATH\" value=\"$USER_HOME$/.jdks/openjdk-23\" />\r\n      <option name=\"ALTERNATIVE_JRE_PATH_ENABLED\" value=\"true\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Novex_05112024_Oops.Novex_15112024_Oops_Wrpper_Class_Exception_H.Lab_175_Exception\" />\r\n      <module name=\"ATB9xJavaPrograms\" />\r\n      <option name=\"PROGRAM_PARAMETERS\" value=\"100\" />\r\n      <extension name=\"software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension\">\r\n        <option name=\"credential\" />\r\n        <option name=\"region\" />\r\n        <option name=\"useCurrentConnection\" value=\"false\" />\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <list>\r\n      <item itemvalue=\"Application.Fresh Lab064\" />\r\n      <item itemvalue=\"Application.Lab_173_wrapper\" />\r\n      <item itemvalue=\"Application.Lab_175_Exception_problem\" />\r\n      <item itemvalue=\"Application.Lab_176_Exceptions\" />\r\n      <item itemvalue=\"Application.Lab_176_handle_exception\" />\r\n      <item itemvalue=\"Application.Lab_177_Exception_handleing\" />\r\n    </list>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.Lab_176_handle_exception\" />\r\n        <item itemvalue=\"Application.Lab_177_Exception_handleing\" />\r\n        <item itemvalue=\"Application.Lab_176_Exceptions\" />\r\n        <item itemvalue=\"Application.Lab_175_Exception_problem\" />\r\n        <item itemvalue=\"Application.Lab_173_wrapper\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"586ad5a8-517e-48bf-a743-437f241b599f\" name=\"Changes\" comment=\"\" />\r\n      <created>1727973684366</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1727973684366</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"commiting 1st code\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1728227362231</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1728227362231</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"commiting 1st code\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1728227455106</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1728227455106</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"commiting 1st code\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1728227588208</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1728227588208</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"commiting 1st code\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1728227893732</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1728227893732</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"commiting 1st code\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1728228164819</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1728228164819</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"commiting 1st code\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1729433177031</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1729433177032</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"commiting 20th oct code\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1729433222465</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1729433222465</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"commiting 20th oct code\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1729433275323</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1729433275323</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"commiting 22th oct code\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1730891460136</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1730891460136</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"commiting 22th oct code\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1730891492027</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1730891492027</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00011\" summary=\"commiting 30th oct code\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1731071818298</created>\r\n      <option name=\"number\" value=\"00011\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1731071818298</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00012\" summary=\"commiting 30th oct code\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1731071829133</created>\r\n      <option name=\"number\" value=\"00012\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00012\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1731071829133</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00013\" summary=\"Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1731156019446</created>\r\n      <option name=\"number\" value=\"00013\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00013\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1731156019446</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00014\" summary=\"Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1731245173440</created>\r\n      <option name=\"number\" value=\"00014\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00014\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1731245173440</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00015\" summary=\"Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1731245224647</created>\r\n      <option name=\"number\" value=\"00015\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00015\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1731245224647</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00016\" summary=\"Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1731245251207</created>\r\n      <option name=\"number\" value=\"00016\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00016\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1731245251207</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00017\" summary=\"Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1731245268826</created>\r\n      <option name=\"number\" value=\"00017\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00017\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1731245268826</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00018\" summary=\"Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1731245410929</created>\r\n      <option name=\"number\" value=\"00018\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00018\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1731245410929</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00019\" summary=\"Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1731246279137</created>\r\n      <option name=\"number\" value=\"00019\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00019\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1731246279137</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00020\" summary=\"Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1731755368466</created>\r\n      <option name=\"number\" value=\"00020\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00020\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1731755368466</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00021\" summary=\"Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1731755521559</created>\r\n      <option name=\"number\" value=\"00021\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00021\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1731755521559</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00022\" summary=\"Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1731755573045</created>\r\n      <option name=\"number\" value=\"00022\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00022\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1731755573045</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00023\" summary=\"pushing 12th nov code\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1731766359124</created>\r\n      <option name=\"number\" value=\"00023\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00023\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1731766359124</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00024\" summary=\"pushing 12th nov code\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1731766444952</created>\r\n      <option name=\"number\" value=\"00024\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00024\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1731766444952</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00025\" summary=\"pushing 12th nov code\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1731766459732</created>\r\n      <option name=\"number\" value=\"00025\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00025\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1731766459732</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00026\" summary=\"pushing 12th nov code\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1731766494413</created>\r\n      <option name=\"number\" value=\"00026\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00026\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1731766494413</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"27\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"commiting 1st code\" />\r\n    <MESSAGE value=\"commiting 20th oct code\" />\r\n    <MESSAGE value=\"commiting 22th oct code\" />\r\n    <MESSAGE value=\"commiting 30th oct code\" />\r\n    <MESSAGE value=\"commiting 6th nov code\" />\r\n    <MESSAGE value=\"Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml\" />\r\n    <MESSAGE value=\"pushing 12th nov code\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"pushing 12th nov code\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\r\n          <url>file://$PROJECT_DIR$/src/Octex_17102024_IfCondition/Lab068.java</url>\r\n          <line>6</line>\r\n          <option name=\"timeStamp\" value=\"8\" />\r\n        </line-breakpoint>\r\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\r\n          <url>file://$PROJECT_DIR$/src/Octex_17102024_IfCondition/Lab069.java</url>\r\n          <line>6</line>\r\n          <option name=\"timeStamp\" value=\"9\" />\r\n        </line-breakpoint>\r\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\r\n          <url>file://$PROJECT_DIR$/src/Octex_17102024_IfCondition/Lab069.java</url>\r\n          <line>10</line>\r\n          <option name=\"timeStamp\" value=\"10\" />\r\n        </line-breakpoint>\r\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\r\n          <url>file://$PROJECT_DIR$/src/Octex_22102024_While_Loop/Lab109_Do_While.java</url>\r\n          <line>12</line>\r\n          <option name=\"timeStamp\" value=\"12\" />\r\n        </line-breakpoint>\r\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\r\n          <url>file://$PROJECT_DIR$/src/Octex_22102024_While_Loop/Lab109_Do_While.java</url>\r\n          <line>7</line>\r\n          <option name=\"timeStamp\" value=\"13\" />\r\n        </line-breakpoint>\r\n        <line-breakpoint enabled=\"true\" type=\"java-method\">\r\n          <url>file://$PROJECT_DIR$/src/Octex_21102024_For_Loop/Lab098.java</url>\r\n          <line>4</line>\r\n          <properties class=\"Octex_21102024_For_Loop.Lab098\" method=\"main\">\r\n            <option name=\"EMULATED\" value=\"true\" />\r\n            <option name=\"WATCH_EXIT\" value=\"false\" />\r\n          </properties>\r\n          <option name=\"timeStamp\" value=\"11\" />\r\n        </line-breakpoint>\r\n        <line-breakpoint enabled=\"true\" type=\"java-method\">\r\n          <url>file://$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_14112024_Oops_Static_Keyword_ENUM/Lab_164_static_SIB_IIB.java</url>\r\n          <line>3</line>\r\n          <properties class=\"Novex_05112024_Oops.Novex_14112024_Oops_Static_Keyword_ENUM.Lab_164_static_SIB_IIB\" method=\"main\">\r\n            <option name=\"EMULATED\" value=\"true\" />\r\n            <option name=\"WATCH_EXIT\" value=\"false\" />\r\n          </properties>\r\n          <option name=\"timeStamp\" value=\"15\" />\r\n        </line-breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n  </component>\r\n  <component name=\"com.intellij.coverage.CoverageDataManagerImpl\">\r\n    <SUITE FILE_PATH=\"coverage/ATB9xJavaPrograms$Lab063.ic\" NAME=\"Lab063 Coverage Results\" MODIFIED=\"1729415934201\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"idea\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"true\">\r\n      <FILTER>Octex_16102024.*</FILTER>\r\n    </SUITE>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision b5b908751e73efb4584552ddad591c59c340297c)
++++ b/.idea/workspace.xml	(date 1732438243820)
+@@ -4,24 +4,20 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="586ad5a8-517e-48bf-a743-437f241b599f" name="Changes" comment="pushing 12th nov code">
+-      <change afterPath="$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_14112024_Oops_Static_Keyword_ENUM/APIContantsEndPoints.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_14112024_Oops_Static_Keyword_ENUM/Lab_163_Static_Keyword.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_14112024_Oops_Static_Keyword_ENUM/Lab_164_static_SIB_IIB.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_14112024_Oops_Static_Keyword_ENUM/Lab_165_Real_SIB_IIB.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_14112024_Oops_Static_Keyword_ENUM/Lab_166.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_14112024_Oops_Static_Keyword_ENUM/Lab_167_ENUM.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_14112024_Oops_Static_Keyword_ENUM/Lab_168_ENUM2.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_14112024_Oops_Static_Keyword_ENUM/Lab_170_ENUM3.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_14112024_Oops_Static_Keyword_ENUM/Lab_171_ENUM3_main.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_14112024_Oops_Static_Keyword_ENUM/endpoint_main.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_15112024_Oops_Wrpper_Class_Exception_H/Lab_172_wrapper.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_15112024_Oops_Wrpper_Class_Exception_H/Lab_173_wrapper.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_15112024_Oops_Wrpper_Class_Exception_H/Lab_174_Wrapper_Conversion.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_15112024_Oops_Wrpper_Class_Exception_H/Lab_175_Exception_problem.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_15112024_Oops_Wrpper_Class_Exception_H/Lab_176_Exceptions.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_15112024_Oops_Wrpper_Class_Exception_H/Lab_176_handle_exception.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_15112024_Oops_Wrpper_Class_Exception_H/Lab_177_Exception_handleing.java" afterDir="false" />
++    <list default="true" id="586ad5a8-517e-48bf-a743-437f241b599f" name="Changes" comment="Merge remote-tracking branch 'origin/master'">
++      <change afterPath="$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_18112024_Oops_Exception_2/Bank.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_18112024_Oops_Exception_2/Lab_180_Exceptions.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_18112024_Oops_Exception_2/Lab_185_Finally.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_18112024_Oops_Exception_2/Lab_186_Mtiple_Catch.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_18112024_Oops_Exception_2/Lab_187_Multiple_catch_or.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_18112024_Oops_Exception_2/Lab_188_interview.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_18112024_Oops_Exception_2/Lab_189_interview.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_18112024_Oops_Exception_2/Lab_191_unchecked_interview_exception.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_18112024_Oops_Exception_2/Lab_192_Throws.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_18112024_Oops_Exception_2/Lab_193_method_level_throws.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_18112024_Oops_Exception_2/Lab_194_custom_exception_runner.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_18112024_Oops_Exception_2/Lab_196_finally_not_exe.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/Novex_18112024_why_we_need_collection_framework/Lab_196.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+@@ -70,137 +66,145 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "Application.Fresh Lab064.executor": "Run",
+-    "Application.Lab001.executor": "Run",
+-    "Application.Lab002.executor": "Run",
+-    "Application.Lab060.executor": "Run",
+-    "Application.Lab061.executor": "Run",
+-    "Application.Lab062.executor": "Run",
+-    "Application.Lab063.executor": "Run",
+-    "Application.Lab064.executor": "Run",
+-    "Application.Lab065_Scanner.executor": "Run",
+-    "Application.Lab066.executor": "Run",
+-    "Application.Lab066_if.executor": "Run",
+-    "Application.Lab067.executor": "Run",
+-    "Application.Lab067_if_else.executor": "Run",
+-    "Application.Lab068.executor": "Debug",
+-    "Application.Lab069.executor": "Debug",
+-    "Application.Lab070.executor": "Run",
+-    "Application.Lab071_odd_even.executor": "Debug",
+-    "Application.Lab072_if_elseif_else.executor": "Run",
+-    "Application.Lab076.executor": "Run",
+-    "Application.Lab078.executor": "Run",
+-    "Application.Lab080.executor": "Run",
+-    "Application.Lab081.executor": "Run",
+-    "Application.Lab085.executor": "Debug",
+-    "Application.Lab086.executor": "Run",
+-    "Application.Lab087.executor": "Run",
+-    "Application.Lab088.executor": "Run",
+-    "Application.Lab089.executor": "Run",
+-    "Application.Lab090.executor": "Run",
+-    "Application.Lab092.executor": "Run",
+-    "Application.Lab094.executor": "Run",
+-    "Application.Lab095.executor": "Run",
+-    "Application.Lab096.executor": "Run",
+-    "Application.Lab097.executor": "Run",
+-    "Application.Lab098.executor": "Run",
+-    "Application.Lab099.executor": "Run",
+-    "Application.Lab100.executor": "Debug",
+-    "Application.Lab101.executor": "Debug",
+-    "Application.Lab102.executor": "Run",
+-    "Application.Lab103.executor": "Run",
+-    "Application.Lab104.executor": "Run",
+-    "Application.Lab106.executor": "Run",
+-    "Application.Lab108.executor": "Run",
+-    "Application.Lab109_Do_While.executor": "Run",
+-    "Application.Lab110.executor": "Run",
+-    "Application.Lab111.executor": "Run",
+-    "Application.Lab112.executor": "Run",
+-    "Application.Lab114.executor": "Run",
+-    "Application.Lab119.executor": "Run",
+-    "Application.Lab121.executor": "Run",
+-    "Application.Lab122_String_equalspart_2.executor": "Run",
+-    "Application.Lab123.executor": "Run",
+-    "Application.Lab124_String_Builder_vs_String_Buffer.executor": "Run",
+-    "Application.Lab125_Array.executor": "Run",
+-    "Application.Lab126_Arrayp2.executor": "Run",
+-    "Application.Lab128_Iterate.executor": "Run",
+-    "Application.Lab129Max_Min_value_Array.executor": "Run",
+-    "Application.Lab129_eassy_way.executor": "Run",
+-    "Application.Lab130_Array_User_input.executor": "Run",
+-    "Application.Lab130_Empty_Array.executor": "Run",
+-    "Application.Lab131.executor": "Run",
+-    "Application.Lab132_For_Each_Loop.executor": "Run",
+-    "Application.Lab135_Arrays_2D_Iterate.executor": "Run",
+-    "Application.Lab137.executor": "Run",
+-    "Application.Lab139_oops_object_class.executor": "Run",
+-    "Application.Lab140_Cat_obj_with_Runner.executor": "Run",
+-    "Application.Lab142_Constructor.executor": "Run",
+-    "Application.Lab143_Constructor_p2.executor": "Run",
+-    "Application.Lab144_default_constructor.executor": "Run",
+-    "Application.Lab145_Contructor_Overloading.executor": "Run",
+-    "Application.Lab145_Single_Inheritance.executor": "Run",
+-    "Application.Lab147_Mulilevel.executor": "Run",
+-    "Application.Lab148_Hiearchical.executor": "Run",
+-    "Application.Lab_149.executor": "Run",
+-    "Application.Lab_150.executor": "Run",
+-    "Application.Lab_151.executor": "Run",
+-    "Application.Lab_153.executor": "Run",
+-    "Application.Lab_154.executor": "Run",
+-    "Application.Lab_155_Super.executor": "Run",
+-    "Application.Lab_157_Abtraction.executor": "Run",
+-    "Application.Lab_158_Abstract.executor": "Run",
+-    "Application.Lab_159.executor": "Run",
+-    "Application.Lab_160_Interface.executor": "Run",
+-    "Application.Lab_162_interface.executor": "Run",
+-    "Application.Lab_162_interface_Multiple_Inheritance.executor": "Run",
+-    "Application.Lab_162_multiple_interface.executor": "Run",
+-    "Application.Lab_163_Static_Keyword.executor": "Run",
+-    "Application.Lab_164_static_SIB_IIB.executor": "Run",
+-    "Application.Lab_165_Real_SIB_IIB.executor": "Run",
+-    "Application.Lab_171_ENUM3_main.executor": "Debug",
+-    "Application.Lab_173_wrapper.executor": "Run",
+-    "Application.Lab_175_Exception.executor": "Run",
+-    "Application.Lab_176_Exceptions.executor": "Run",
+-    "Application.Lab_176_handle_exception.executor": "Run",
+-    "Application.Lab_177_Exception.executor": "Run",
+-    "Application.Lab_Lab152.executor": "Run",
+-    "Application.Lb074_switch.executor": "Run",
+-    "Application.Python.executor": "Run",
+-    "Application.Run th Lab107.executor": "Run",
+-    "Application.Runner.executor": "Run",
+-    "Application.Task15102024.executor": "Run",
+-    "Application.Task15102024ID.executor": "Run",
+-    "Application.Task15102024max.executor": "Run",
+-    "Application.Task151022D.executor": "Run",
+-    "Application.Task16102024.Task161020242.executor": "Run",
+-    "Application.Task161020241.executor": "Run",
+-    "Application.Task17102024_Gradecal.executor": "Run",
+-    "Application.Task17102024_Triangle.executor": "Run",
+-    "Application.Task18102024_Month.executor": "Run",
+-    "Application.Task18102024cal.executor": "Run",
+-    "Application.Task2.executor": "Run",
+-    "Application.Task3.executor": "Run",
+-    "Application.Thief.executor": "Run",
+-    "Application.endpoint_main.executor": "Run",
+-    "Application.functions.executor": "Run",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+-    "git-widget-placeholder": "master",
+-    "kotlin-language-version-configured": "true",
+-    "onboarding.tips.debug.path": "C:/Users/HP/IdeaProjects/ATB9xJavaPrograms/src/Main.java",
+-    "settings.editor.selected.configurable": "preferences.pluginManager"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;Application.Fresh Lab064.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab001.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab002.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab060.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab061.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab062.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab063.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab064.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab065_Scanner.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab066.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab066_if.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab067.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab067_if_else.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab068.executor&quot;: &quot;Debug&quot;,
++    &quot;Application.Lab069.executor&quot;: &quot;Debug&quot;,
++    &quot;Application.Lab070.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab071_odd_even.executor&quot;: &quot;Debug&quot;,
++    &quot;Application.Lab072_if_elseif_else.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab076.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab078.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab080.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab081.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab085.executor&quot;: &quot;Debug&quot;,
++    &quot;Application.Lab086.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab087.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab088.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab089.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab090.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab092.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab094.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab095.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab096.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab097.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab098.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab099.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab100.executor&quot;: &quot;Debug&quot;,
++    &quot;Application.Lab101.executor&quot;: &quot;Debug&quot;,
++    &quot;Application.Lab102.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab103.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab104.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab106.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab108.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab109_Do_While.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab110.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab111.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab112.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab114.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab119.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab121.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab122_String_equalspart_2.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab123.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab124_String_Builder_vs_String_Buffer.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab125_Array.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab126_Arrayp2.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab128_Iterate.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab129Max_Min_value_Array.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab129_eassy_way.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab130_Array_User_input.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab130_Empty_Array.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab131.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab132_For_Each_Loop.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab135_Arrays_2D_Iterate.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab137.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab139_oops_object_class.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab140_Cat_obj_with_Runner.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab142_Constructor.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab143_Constructor_p2.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab144_default_constructor.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab145_Contructor_Overloading.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab145_Single_Inheritance.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab147_Mulilevel.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab148_Hiearchical.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab_149.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab_150.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab_151.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab_153.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab_154.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab_155_Super.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab_157_Abtraction.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab_158_Abstract.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab_159.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab_160_Interface.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab_162_interface.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab_162_interface_Multiple_Inheritance.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab_162_multiple_interface.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab_163_Static_Keyword.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab_164_static_SIB_IIB.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab_165_Real_SIB_IIB.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab_171_ENUM3_main.executor&quot;: &quot;Debug&quot;,
++    &quot;Application.Lab_173_wrapper.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab_175_Exception.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab_176_Exceptions.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab_176_handle_exception.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab_177_Exception.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab_180_Exceptions.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab_185_Finally.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab_187_Multiple_catch_or.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab_188_interview.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab_189_interview.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab_193_method_level_throws.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab_194_custom_exception_runner.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab_196_finally_not_exe.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lab_Lab152.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Lb074_switch.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Python.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Run th Lab107.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Runner.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Task15102024.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Task15102024ID.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Task15102024max.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Task151022D.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Task16102024.Task161020242.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Task161020241.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Task17102024_Gradecal.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Task17102024_Triangle.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Task18102024_Month.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Task18102024cal.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Task2.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Task3.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Thief.executor&quot;: &quot;Run&quot;,
++    &quot;Application.endpoint_main.executor&quot;: &quot;Run&quot;,
++    &quot;Application.functions.executor&quot;: &quot;Run&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
++    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
++    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
++    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/HP/IdeaProjects/ATB9xJavaPrograms/src/Main.java&quot;,
++    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+   },
+-  "keyToStringList": {
+-    "ChangesTree.GroupingKeys": [
+-      "directory",
+-      "module"
++  &quot;keyToStringList&quot;: {
++    &quot;ChangesTree.GroupingKeys&quot;: [
++      &quot;directory&quot;,
++      &quot;module&quot;
+     ]
+   }
+-}]]></component>
+-  <component name="RunManager" selected="Application.Lab_176_handle_exception">
++}</component>
++  <component name="RunManager" selected="Application.Lab_196_finally_not_exe">
+     <configuration name="Fresh Lab064" type="Application" factoryName="Application">
+       <option name="MAIN_CLASS_NAME" value="Octex_16102024.Lab064_argument_console" />
+       <module name="ATB9xJavaPrograms" />
+@@ -209,28 +213,36 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="Lab_173_wrapper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="Novex_05112024_Oops.Novex_15112024_Oops_Wrpper_Class_Exception_H.Lab_173_wrapper" />
++    <configuration name="Lab_188_interview" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/openjdk-23" />
++      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
++      <option name="MAIN_CLASS_NAME" value="Novex_05112024_Oops.Novex_18112024_Oops_Exception_2.Lab_188_interview" />
+       <module name="ATB9xJavaPrograms" />
++      <option name="PROGRAM_PARAMETERS" value="100" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="Novex_05112024_Oops.Novex_15112024_Oops_Wrpper_Class_Exception_H.*" />
++          <option name="PATTERN" value="Novex_05112024_Oops.Novex_18112024_Oops_Exception_2.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
++      </extension>
++      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
++        <option name="credential" />
++        <option name="region" />
++        <option name="useCurrentConnection" value="false" />
+       </extension>
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="Lab_175_Exception_problem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++    <configuration name="Lab_189_interview" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+       <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/openjdk-23" />
+       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+-      <option name="MAIN_CLASS_NAME" value="Novex_05112024_Oops.Novex_15112024_Oops_Wrpper_Class_Exception_H.Lab_175_Exception_problem" />
++      <option name="MAIN_CLASS_NAME" value="Novex_05112024_Oops.Novex_18112024_Oops_Exception_2.Lab_189_interview" />
+       <module name="ATB9xJavaPrograms" />
+       <option name="PROGRAM_PARAMETERS" value="100" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="Novex_05112024_Oops.Novex_15112024_Oops_Wrpper_Class_Exception_H.*" />
++          <option name="PATTERN" value="Novex_05112024_Oops.Novex_18112024_Oops_Exception_2.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+@@ -243,15 +255,15 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="Lab_176_Exceptions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++    <configuration name="Lab_193_method_level_throws" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+       <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/openjdk-23" />
+       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+-      <option name="MAIN_CLASS_NAME" value="Novex_05112024_Oops.Novex_15112024_Oops_Wrpper_Class_Exception_H.Lab_176_Exceptions" />
++      <option name="MAIN_CLASS_NAME" value="Novex_05112024_Oops.Novex_18112024_Oops_Exception_2.Lab_193_method_level_throws" />
+       <module name="ATB9xJavaPrograms" />
+       <option name="PROGRAM_PARAMETERS" value="100" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="Novex_05112024_Oops.Novex_15112024_Oops_Wrpper_Class_Exception_H.*" />
++          <option name="PATTERN" value="Novex_05112024_Oops.Novex_18112024_Oops_Exception_2.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+@@ -264,15 +276,15 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="Lab_176_handle_exception" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++    <configuration name="Lab_194_custom_exception_runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+       <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/openjdk-23" />
+       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+-      <option name="MAIN_CLASS_NAME" value="Novex_05112024_Oops.Novex_15112024_Oops_Wrpper_Class_Exception_H.Lab_176_handle_exception" />
++      <option name="MAIN_CLASS_NAME" value="Novex_05112024_Oops.Novex_18112024_Oops_Exception_2.Lab_194_custom_exception_runner" />
+       <module name="ATB9xJavaPrograms" />
+       <option name="PROGRAM_PARAMETERS" value="100" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="Novex_05112024_Oops.Novex_15112024_Oops_Wrpper_Class_Exception_H.*" />
++          <option name="PATTERN" value="Novex_05112024_Oops.Novex_18112024_Oops_Exception_2.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+@@ -285,15 +297,15 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="Lab_177_Exception_handleing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++    <configuration name="Lab_196_finally_not_exe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+       <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/openjdk-23" />
+       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+-      <option name="MAIN_CLASS_NAME" value="Novex_05112024_Oops.Novex_15112024_Oops_Wrpper_Class_Exception_H.Lab_177_Exception_handleing" />
++      <option name="MAIN_CLASS_NAME" value="Novex_05112024_Oops.Novex_18112024_Oops_Exception_2.Lab_196_finally_not_exe" />
+       <module name="ATB9xJavaPrograms" />
+       <option name="PROGRAM_PARAMETERS" value="100" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="Novex_05112024_Oops.Novex_15112024_Oops_Wrpper_Class_Exception_H.*" />
++          <option name="PATTERN" value="Novex_05112024_Oops.Novex_18112024_Oops_Exception_2.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+@@ -323,19 +335,19 @@
+     </configuration>
+     <list>
+       <item itemvalue="Application.Fresh Lab064" />
+-      <item itemvalue="Application.Lab_173_wrapper" />
+-      <item itemvalue="Application.Lab_175_Exception_problem" />
+-      <item itemvalue="Application.Lab_176_Exceptions" />
+-      <item itemvalue="Application.Lab_176_handle_exception" />
+-      <item itemvalue="Application.Lab_177_Exception_handleing" />
++      <item itemvalue="Application.Lab_188_interview" />
++      <item itemvalue="Application.Lab_189_interview" />
++      <item itemvalue="Application.Lab_193_method_level_throws" />
++      <item itemvalue="Application.Lab_194_custom_exception_runner" />
++      <item itemvalue="Application.Lab_196_finally_not_exe" />
+     </list>
+     <recent_temporary>
+       <list>
+-        <item itemvalue="Application.Lab_176_handle_exception" />
+-        <item itemvalue="Application.Lab_177_Exception_handleing" />
+-        <item itemvalue="Application.Lab_176_Exceptions" />
+-        <item itemvalue="Application.Lab_175_Exception_problem" />
+-        <item itemvalue="Application.Lab_173_wrapper" />
++        <item itemvalue="Application.Lab_196_finally_not_exe" />
++        <item itemvalue="Application.Lab_194_custom_exception_runner" />
++        <item itemvalue="Application.Lab_193_method_level_throws" />
++        <item itemvalue="Application.Lab_189_interview" />
++        <item itemvalue="Application.Lab_188_interview" />
+       </list>
+     </recent_temporary>
+   </component>
+@@ -556,7 +568,23 @@
+       <option name="project" value="LOCAL" />
+       <updated>1731766494413</updated>
+     </task>
+-    <option name="localTasksCounter" value="27" />
++    <task id="LOCAL-00027" summary="pushing 18th nov code">
++      <option name="closed" value="true" />
++      <created>1732438157203</created>
++      <option name="number" value="00027" />
++      <option name="presentableId" value="LOCAL-00027" />
++      <option name="project" value="LOCAL" />
++      <updated>1732438157203</updated>
++    </task>
++    <task id="LOCAL-00028" summary="Merge remote-tracking branch 'origin/master'">
++      <option name="closed" value="true" />
++      <created>1732438227546</created>
++      <option name="number" value="00028" />
++      <option name="presentableId" value="LOCAL-00028" />
++      <option name="project" value="LOCAL" />
++      <updated>1732438227546</updated>
++    </task>
++    <option name="localTasksCounter" value="29" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -578,7 +606,10 @@
+     <MESSAGE value="commiting 6th nov code" />
+     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+     <MESSAGE value="pushing 12th nov code" />
+-    <option name="LAST_COMMIT_MESSAGE" value="pushing 12th nov code" />
++    <MESSAGE value="pushing 15th nov code" />
++    <MESSAGE value="pushing 18th nov code" />
++    <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
++    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'" />
+   </component>
+   <component name="XDebuggerManager">
+     <breakpoint-manager>
+@@ -625,6 +656,15 @@
+             <option name="WATCH_EXIT" value="false" />
+           </properties>
+           <option name="timeStamp" value="15" />
++        </line-breakpoint>
++        <line-breakpoint enabled="true" type="java-method">
++          <url>file://$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_18112024_Oops_Exception_2/Bank.java</url>
++          <line>9</line>
++          <properties class="Novex_05112024_Oops.Novex_18112024_Oops_Exception_2.Bank" method="getCurrency">
++            <option name="EMULATED" value="true" />
++            <option name="WATCH_EXIT" value="false" />
++          </properties>
++          <option name="timeStamp" value="16" />
+         </line-breakpoint>
+       </breakpoints>
+     </breakpoint-manager>
+Index: src/Novex_05112024_Oops/Novex_18112024_Oops_Exception_2/Lab_180_Exceptions.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Novex_05112024_Oops/Novex_18112024_Oops_Exception_2/Lab_180_Exceptions.java b/src/Novex_05112024_Oops/Novex_18112024_Oops_Exception_2/Lab_180_Exceptions.java
+new file mode 100644
+--- /dev/null	(date 1732438178323)
++++ b/src/Novex_05112024_Oops/Novex_18112024_Oops_Exception_2/Lab_180_Exceptions.java	(date 1732438178323)
+@@ -0,0 +1,38 @@
++package Novex_05112024_Oops.Novex_18112024_Oops_Exception_2;
++
++public class Lab_180_Exceptions
++{
++    public static void main(String[] args)
++    {
++        int a =0;
++        int c = 0;
++        try {
++            c = 10 / a;
++
++        }catch (ArithmeticException e)
++        {
++            System.out.println(e.getMessage());
++        } catch (Exception e)
++        {
++            System.out.println(e.getMessage());
++            //throw new RuntimeException(e);
++        } catch (Throwable e)
++        {
++            ///throw new RuntimeException(e);
++            System.out.println(e.getMessage());
++        }
++        //System.out.println(c);//arithmatic exception
++
++        finally
++        {
++            System.out.println("I will be alaways exe");
++
++        }
++       //finally means alaways exe
++       //it is used to close the DB connections,scanner class closing thins you can add
++
++
++
++
++    }
++}
+Index: src/Novex_05112024_Oops/Novex_18112024_Oops_Exception_2/Lab_186_Mtiple_Catch.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Novex_05112024_Oops/Novex_18112024_Oops_Exception_2/Lab_186_Mtiple_Catch.java b/src/Novex_05112024_Oops/Novex_18112024_Oops_Exception_2/Lab_186_Mtiple_Catch.java
+new file mode 100644
+--- /dev/null	(date 1732438178338)
++++ b/src/Novex_05112024_Oops/Novex_18112024_Oops_Exception_2/Lab_186_Mtiple_Catch.java	(date 1732438178338)
+@@ -0,0 +1,33 @@
++package Novex_05112024_Oops.Novex_18112024_Oops_Exception_2;
++
++public class Lab_186_Mtiple_Catch
++{
++    public static void main(String[] args)
++    {
++        int a =0;
++        int c = 0;
++        try {
++            c = 10 / a;
++
++        }catch (ArithmeticException e)
++        {
++            System.out.println(e.getMessage());
++        } catch (Exception e)
++        {
++            System.out.println(e.getMessage());
++            //throw new RuntimeException(e);
++        } catch (Throwable e)
++        {
++            ///throw new RuntimeException(e);
++            System.out.println(e.getMessage());
++        }
++        //System.out.println(c);//arithmatic exception
++
++        finally
++        {
++            System.out.println("I will be alaways exe");
++
++        }
++
++    }
++}
+Index: src/Novex_05112024_Oops/Novex_18112024_Oops_Exception_2/Lab_187_Multiple_catch_or.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Novex_05112024_Oops/Novex_18112024_Oops_Exception_2/Lab_187_Multiple_catch_or.java b/src/Novex_05112024_Oops/Novex_18112024_Oops_Exception_2/Lab_187_Multiple_catch_or.java
+new file mode 100644
+--- /dev/null	(date 1732438178354)
++++ b/src/Novex_05112024_Oops/Novex_18112024_Oops_Exception_2/Lab_187_Multiple_catch_or.java	(date 1732438178354)
+@@ -0,0 +1,20 @@
++package Novex_05112024_Oops.Novex_18112024_Oops_Exception_2;
++
++public class Lab_187_Multiple_catch_or
++{
++    public static void main(String[] args)
++    {
++        int a =0;
++        int c ;
++        try {
++            c = 10 / a;
++            String s= null;
++        }
++        catch (ArithmeticException | NullPointerException e )
++        {
++            System.out.println(e.getMessage());
++            System.out.println();
++        }
++
++    }
++}
+Index: src/Novex_05112024_Oops/Novex_18112024_Oops_Exception_2/Lab_188_interview.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Novex_05112024_Oops/Novex_18112024_Oops_Exception_2/Lab_188_interview.java b/src/Novex_05112024_Oops/Novex_18112024_Oops_Exception_2/Lab_188_interview.java
+new file mode 100644
+--- /dev/null	(date 1732438178370)
++++ b/src/Novex_05112024_Oops/Novex_18112024_Oops_Exception_2/Lab_188_interview.java	(date 1732438178370)
+@@ -0,0 +1,22 @@
++package Novex_05112024_Oops.Novex_18112024_Oops_Exception_2;
++
++public class Lab_188_interview
++{
++    public static void main(String[] args)
++    {
++        try
++        {
++            String s1 ="Ashwini";
++            String a1 = args[0];
++            int a = 10 / 0;
++            s1 = null;
++            System.out.println(s1.trim());
++        }
++        catch (Exception e)
++        {
++            System.out.println("Problem in code");
++            System.out.println(e.getMessage());
++        }
++
++    }
++}
+Index: src/Novex_05112024_Oops/Novex_18112024_Oops_Exception_2/Lab_189_interview.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Novex_05112024_Oops/Novex_18112024_Oops_Exception_2/Lab_189_interview.java b/src/Novex_05112024_Oops/Novex_18112024_Oops_Exception_2/Lab_189_interview.java
+new file mode 100644
+--- /dev/null	(date 1732438178401)
++++ b/src/Novex_05112024_Oops/Novex_18112024_Oops_Exception_2/Lab_189_interview.java	(date 1732438178401)
+@@ -0,0 +1,18 @@
++package Novex_05112024_Oops.Novex_18112024_Oops_Exception_2;
++
++public class Lab_189_interview
++{
++    public static void main(String[] args)
++    {
++        final double pi = 3.14;
++        int a =0;
++        try{
++            int x = 10/a;
++        } catch (Exception e) {
++            System.out.println("div by zero");
++        }
++        finally {
++            System.out.println("I will be exe anyhow!!!!");
++        }
++    }
++}
+Index: src/Novex_05112024_Oops/Novex_18112024_Oops_Exception_2/Lab_191_unchecked_interview_exception.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Novex_05112024_Oops/Novex_18112024_Oops_Exception_2/Lab_191_unchecked_interview_exception.java b/src/Novex_05112024_Oops/Novex_18112024_Oops_Exception_2/Lab_191_unchecked_interview_exception.java
+new file mode 100644
+--- /dev/null	(date 1732438178416)
++++ b/src/Novex_05112024_Oops/Novex_18112024_Oops_Exception_2/Lab_191_unchecked_interview_exception.java	(date 1732438178416)
+@@ -0,0 +1,35 @@
++package Novex_05112024_Oops.Novex_18112024_Oops_Exception_2;
++
++import java.io.File;
++import java.io.FileNotFoundException;
++import java.io.FileReader;
++
++public class Lab_191_unchecked_interview_exception
++{
++    public static void main(String[] args)
++    {
++        try {
++            int a =10/0;
++        } catch (Exception e)
++        {
++            System.out.println(e.getMessage());
++        }
++        finally {
++            System.out.println("uncheked");
++        }
++
++
++
++        //checked exceptiob eg
++        try{
++            FileReader f = new FileReader(new File("C://abc.txt"));
++        }catch (FileNotFoundException e)
++        {
++            System.out.println(e.getMessage());
++        }
++        finally {
++            System.out.println("Finally checked exception");
++        }
++
++    }
++}
+Index: src/Novex_05112024_Oops/Novex_18112024_Oops_Exception_2/Lab_192_Throws.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Novex_05112024_Oops/Novex_18112024_Oops_Exception_2/Lab_192_Throws.java b/src/Novex_05112024_Oops/Novex_18112024_Oops_Exception_2/Lab_192_Throws.java
+new file mode 100644
+--- /dev/null	(date 1732438178432)
++++ b/src/Novex_05112024_Oops/Novex_18112024_Oops_Exception_2/Lab_192_Throws.java	(date 1732438178432)
+@@ -0,0 +1,18 @@
++package Novex_05112024_Oops.Novex_18112024_Oops_Exception_2;
++
++import java.io.FileInputStream;
++import java.io.FileNotFoundException;
++
++public class Lab_192_Throws
++{
++    public static void main(String[] args)//here by adding throws exception we cn handle it method level as well
++    {
++        //throes->
++        try {
++            FileInputStream fileInputStream = new FileInputStream("C://a.txt");
++        } catch (FileNotFoundException e) {
++            throw new RuntimeException(e);
++        }
++
++    }
++}
+Index: src/Novex_05112024_Oops/Novex_18112024_Oops_Exception_2/Lab_193_method_level_throws.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Novex_05112024_Oops/Novex_18112024_Oops_Exception_2/Lab_193_method_level_throws.java b/src/Novex_05112024_Oops/Novex_18112024_Oops_Exception_2/Lab_193_method_level_throws.java
+new file mode 100644
+--- /dev/null	(date 1732438178448)
++++ b/src/Novex_05112024_Oops/Novex_18112024_Oops_Exception_2/Lab_193_method_level_throws.java	(date 1732438178448)
+@@ -0,0 +1,12 @@
++package Novex_05112024_Oops.Novex_18112024_Oops_Exception_2;
++
++import java.io.FileInputStream;
++
++public class Lab_193_method_level_throws
++{
++    public static void main(String[] args) throws Exception
++    {
++        FileInputStream fileInputStream = new FileInputStream("C://a.txt");
++
++    }
++}

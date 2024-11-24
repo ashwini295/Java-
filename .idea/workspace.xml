@@ -4,26 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="586ad5a8-517e-48bf-a743-437f241b599f" name="Changes" comment="pushing 12th nov code">
-      <change afterPath="$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_14112024_Oops_Static_Keyword_ENUM/APIContantsEndPoints.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_14112024_Oops_Static_Keyword_ENUM/Lab_163_Static_Keyword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_14112024_Oops_Static_Keyword_ENUM/Lab_164_static_SIB_IIB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_14112024_Oops_Static_Keyword_ENUM/Lab_165_Real_SIB_IIB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_14112024_Oops_Static_Keyword_ENUM/Lab_166.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_14112024_Oops_Static_Keyword_ENUM/Lab_167_ENUM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_14112024_Oops_Static_Keyword_ENUM/Lab_168_ENUM2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_14112024_Oops_Static_Keyword_ENUM/Lab_170_ENUM3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_14112024_Oops_Static_Keyword_ENUM/Lab_171_ENUM3_main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_14112024_Oops_Static_Keyword_ENUM/endpoint_main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_15112024_Oops_Wrpper_Class_Exception_H/Lab_172_wrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_15112024_Oops_Wrpper_Class_Exception_H/Lab_173_wrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_15112024_Oops_Wrpper_Class_Exception_H/Lab_174_Wrapper_Conversion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_15112024_Oops_Wrpper_Class_Exception_H/Lab_175_Exception_problem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_15112024_Oops_Wrpper_Class_Exception_H/Lab_176_Exceptions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_15112024_Oops_Wrpper_Class_Exception_H/Lab_176_handle_exception.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_15112024_Oops_Wrpper_Class_Exception_H/Lab_177_Exception_handleing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="586ad5a8-517e-48bf-a743-437f241b599f" name="Changes" comment="Merge remote-tracking branch 'origin/master'" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -166,6 +147,17 @@
     "Application.Lab_176_Exceptions.executor": "Run",
     "Application.Lab_176_handle_exception.executor": "Run",
     "Application.Lab_177_Exception.executor": "Run",
+    "Application.Lab_180_Exceptions.executor": "Run",
+    "Application.Lab_185_Finally.executor": "Run",
+    "Application.Lab_187_Multiple_catch_or.executor": "Run",
+    "Application.Lab_188_interview.executor": "Run",
+    "Application.Lab_189_interview.executor": "Run",
+    "Application.Lab_193_method_level_throws.executor": "Run",
+    "Application.Lab_194_custom_exception_runner.executor": "Run",
+    "Application.Lab_196_finally_not_exe.executor": "Run",
+    "Application.Lab_197_generic_solution.executor": "Run",
+    "Application.Lab_199_Array_List.executor": "Run",
+    "Application.Lab_200_Array_LIst.executor": "Run",
     "Application.Lab_Lab152.executor": "Run",
     "Application.Lb074_switch.executor": "Run",
     "Application.Python.executor": "Run",
@@ -200,7 +192,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Lab_176_handle_exception">
+  <component name="RunManager" selected="Application.Lab_200_Array_LIst">
     <configuration name="Fresh Lab064" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Octex_16102024.Lab064_argument_console" />
       <module name="ATB9xJavaPrograms" />
@@ -209,28 +201,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lab_173_wrapper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Novex_05112024_Oops.Novex_15112024_Oops_Wrpper_Class_Exception_H.Lab_173_wrapper" />
-      <module name="ATB9xJavaPrograms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Novex_05112024_Oops.Novex_15112024_Oops_Wrpper_Class_Exception_H.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Lab_175_Exception_problem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Lab_194_custom_exception_runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/openjdk-23" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Novex_05112024_Oops.Novex_15112024_Oops_Wrpper_Class_Exception_H.Lab_175_Exception_problem" />
+      <option name="MAIN_CLASS_NAME" value="Novex_05112024_Oops.Novex_18112024_Oops_Exception_2.Lab_194_custom_exception_runner" />
       <module name="ATB9xJavaPrograms" />
       <option name="PROGRAM_PARAMETERS" value="100" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Novex_05112024_Oops.Novex_15112024_Oops_Wrpper_Class_Exception_H.*" />
+          <option name="PATTERN" value="Novex_05112024_Oops.Novex_18112024_Oops_Exception_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -243,15 +222,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lab_176_Exceptions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Lab_196_finally_not_exe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/openjdk-23" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Novex_05112024_Oops.Novex_15112024_Oops_Wrpper_Class_Exception_H.Lab_176_Exceptions" />
+      <option name="MAIN_CLASS_NAME" value="Novex_05112024_Oops.Novex_18112024_Oops_Exception_2.Lab_196_finally_not_exe" />
       <module name="ATB9xJavaPrograms" />
       <option name="PROGRAM_PARAMETERS" value="100" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Novex_05112024_Oops.Novex_15112024_Oops_Wrpper_Class_Exception_H.*" />
+          <option name="PATTERN" value="Novex_05112024_Oops.Novex_18112024_Oops_Exception_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -264,15 +243,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lab_176_handle_exception" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Lab_197_generic_solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/openjdk-23" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Novex_05112024_Oops.Novex_15112024_Oops_Wrpper_Class_Exception_H.Lab_176_handle_exception" />
+      <option name="MAIN_CLASS_NAME" value="Novex_19112024_Gererics.Lab_197_generic_solution" />
       <module name="ATB9xJavaPrograms" />
       <option name="PROGRAM_PARAMETERS" value="100" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Novex_05112024_Oops.Novex_15112024_Oops_Wrpper_Class_Exception_H.*" />
+          <option name="PATTERN" value="Novex_19112024_Gererics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -285,15 +264,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lab_177_Exception_handleing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Lab_199_Array_List" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/openjdk-23" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Novex_05112024_Oops.Novex_15112024_Oops_Wrpper_Class_Exception_H.Lab_177_Exception_handleing" />
+      <option name="MAIN_CLASS_NAME" value="Novex_19112024_Collections.Lab_199_Array_List" />
       <module name="ATB9xJavaPrograms" />
       <option name="PROGRAM_PARAMETERS" value="100" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Novex_05112024_Oops.Novex_15112024_Oops_Wrpper_Class_Exception_H.*" />
+          <option name="PATTERN" value="Novex_19112024_Collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lab_200_Array_LIst" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/openjdk-23" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Novex_19112024_Collections.Lab_200_Array_LIst" />
+      <module name="ATB9xJavaPrograms" />
+      <option name="PROGRAM_PARAMETERS" value="100" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Novex_19112024_Collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -323,19 +323,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Fresh Lab064" />
-      <item itemvalue="Application.Lab_173_wrapper" />
-      <item itemvalue="Application.Lab_175_Exception_problem" />
-      <item itemvalue="Application.Lab_176_Exceptions" />
-      <item itemvalue="Application.Lab_176_handle_exception" />
-      <item itemvalue="Application.Lab_177_Exception_handleing" />
+      <item itemvalue="Application.Lab_197_generic_solution" />
+      <item itemvalue="Application.Lab_199_Array_List" />
+      <item itemvalue="Application.Lab_200_Array_LIst" />
+      <item itemvalue="Application.Lab_194_custom_exception_runner" />
+      <item itemvalue="Application.Lab_196_finally_not_exe" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Lab_176_handle_exception" />
-        <item itemvalue="Application.Lab_177_Exception_handleing" />
-        <item itemvalue="Application.Lab_176_Exceptions" />
-        <item itemvalue="Application.Lab_175_Exception_problem" />
-        <item itemvalue="Application.Lab_173_wrapper" />
+        <item itemvalue="Application.Lab_200_Array_LIst" />
+        <item itemvalue="Application.Lab_199_Array_List" />
+        <item itemvalue="Application.Lab_197_generic_solution" />
+        <item itemvalue="Application.Lab_196_finally_not_exe" />
+        <item itemvalue="Application.Lab_194_custom_exception_runner" />
       </list>
     </recent_temporary>
   </component>
@@ -556,10 +556,89 @@
       <option name="project" value="LOCAL" />
       <updated>1731766494413</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="pushing 18th nov code">
+      <option name="closed" value="true" />
+      <created>1732438157203</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1732438157203</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Merge remote-tracking branch 'origin/master'">
+      <option name="closed" value="true" />
+      <created>1732438227546</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1732438227546</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Merge remote-tracking branch 'origin/master'">
+      <option name="closed" value="true" />
+      <created>1732438315488</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1732438315488</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Merge remote-tracking branch 'origin/master'">
+      <option name="closed" value="true" />
+      <created>1732438329892</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1732438329892</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Merge remote-tracking branch 'origin/master'">
+      <option name="closed" value="true" />
+      <created>1732438356305</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1732438356305</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Merge remote-tracking branch 'origin/master'">
+      <option name="closed" value="true" />
+      <created>1732438399828</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1732438399828</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Merge remote-tracking branch 'origin/master'">
+      <option name="closed" value="true" />
+      <created>1732438620596</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1732438620596</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Merge remote-tracking branch 'origin/master'">
+      <option name="closed" value="true" />
+      <created>1732447906522</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1732447906522</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
@@ -578,7 +657,11 @@
     <MESSAGE value="commiting 6th nov code" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
     <MESSAGE value="pushing 12th nov code" />
-    <option name="LAST_COMMIT_MESSAGE" value="pushing 12th nov code" />
+    <MESSAGE value="pushing 15th nov code" />
+    <MESSAGE value="pushing 18th nov code" />
+    <MESSAGE value="19" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -625,6 +708,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Novex_05112024_Oops/Novex_18112024_Oops_Exception_2/Bank.java</url>
+          <line>9</line>
+          <properties class="Novex_05112024_Oops.Novex_18112024_Oops_Exception_2.Bank" method="getCurrency">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
